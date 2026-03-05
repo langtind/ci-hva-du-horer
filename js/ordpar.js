@@ -34,6 +34,7 @@ const ORDPAR_DATA = [
 let ordparCurrentType = 0;
 
 function initOrdpar() {
+  S.mode.ordpar = 'lytte';
   const select = document.getElementById('ordpar-select');
   select.innerHTML = '';
   ORDPAR_DATA.forEach((t, i) => {
@@ -43,13 +44,42 @@ function initOrdpar() {
     if (i === ordparCurrentType) opt.selected = true;
     select.appendChild(opt);
   });
+  renderOrdparTable();
 }
 
 function ordparSelectType(val) {
   ordparCurrentType = parseInt(val);
   resetExercise('ordpar');
-  document.getElementById('pair-display').style.display = 'none';
-  document.getElementById('ordpar-info').style.display = 'block';
+  const pairDisplay = document.getElementById('pair-display');
+  if (pairDisplay) pairDisplay.style.display = 'none';
+  renderOrdparTable();
+}
+
+function renderOrdparTable() {
+  const wrap = document.getElementById('ordpar-table-wrap');
+  const data = ORDPAR_DATA[ordparCurrentType];
+  let html = '<table class="ordpar-table">';
+  data.data.forEach((pair, pairIdx) => {
+    html += '<tr>';
+    pair.forEach((word, wordIdx) => {
+      html += `<td class="ordpar-word" onclick="ordparWordClick(${pairIdx},${wordIdx})">${word}</td>`;
+    });
+    html += '</tr>';
+  });
+  html += '</table>';
+  wrap.innerHTML = html;
+}
+
+function ordparWordClick(pairIdx, wordIdx) {
+  if ((S.mode.ordpar || 'lytte') === 'lytte') {
+    const typePrefix = ORDPAR_DATA[ordparCurrentType].type;
+    playAudio(`audio/ordpar/${S.voice}/${typePrefix}ord${pairIdx + 1}-${wordIdx + 1}.mp3`, 'ordpar');
+    // Highlight clicked cell
+    document.querySelectorAll('.ordpar-word.selected').forEach(c => c.classList.remove('selected'));
+    const cells = document.querySelectorAll('.ordpar-table .ordpar-word');
+    const idx = pairIdx * 2 + wordIdx;
+    if (cells[idx]) cells[idx].classList.add('selected');
+  }
 }
 
 function ordparStart() {
@@ -58,18 +88,26 @@ function ordparStart() {
   if (!ex || ex.current === -1) {
     initExercise('ordpar', shuffle(Array.from({length: data.data.length}, (_, i) => i)), Math.min(20, data.data.length));
   }
-  document.getElementById('ordpar-info').style.display = 'none';
+  // Hide table in exercise mode
+  document.getElementById('ordpar-table-wrap').style.display = 'none';
   ordparNext();
 }
 
 function ordparNext() {
   const ex = exercises.ordpar;
-  if (ex.answered >= ex.total) { showResult('ordpar'); resetExercise('ordpar'); document.getElementById('pair-display').style.display = 'none'; document.getElementById('ordpar-info').style.display = 'block'; return; }
+  if (ex.answered >= ex.total) {
+    showResult('ordpar');
+    resetExercise('ordpar');
+    const pd = document.getElementById('pair-display');
+    if (pd) pd.style.display = 'none';
+    document.getElementById('ordpar-table-wrap').style.display = '';
+    return;
+  }
 
   const data = ORDPAR_DATA[ordparCurrentType];
   ex.current = ex.items[ex.answered];
   const pair = data.data[ex.current];
-  ex.currentAnswer = Math.random() < 0.5 ? 0 : 1; // which one to play
+  ex.currentAnswer = Math.random() < 0.5 ? 0 : 1;
 
   renderProgress('ordpar');
 
@@ -89,11 +127,20 @@ function ordparNext() {
   btn.classList.remove('pulsing');
   document.getElementById('repeat-btn-ordpar').disabled = false;
 
-  // Play audio - use type prefix and 1-based indices
+  // Play both words first, then the target word
   const typePrefix = ORDPAR_DATA[ordparCurrentType].type;
   const pairIdx = ex.current + 1;
-  const wordIdx = ex.currentAnswer + 1;
-  playAudio(`audio/ordpar/${S.voice}/${typePrefix}ord${pairIdx}-${wordIdx}.mp3`, 'ordpar');
+  const answerIdx = ex.currentAnswer + 1;
+  // Play word 1, then word 2, then the answer
+  playAudio(`audio/ordpar/${S.voice}/${typePrefix}ord${pairIdx}-1.mp3`, 'ordpar', () => {
+    setTimeout(() => {
+      playAudio(`audio/ordpar/${S.voice}/${typePrefix}ord${pairIdx}-2.mp3`, 'ordpar', () => {
+        setTimeout(() => {
+          playAudio(`audio/ordpar/${S.voice}/${typePrefix}ord${pairIdx}-${answerIdx}.mp3`, 'ordpar');
+        }, 400);
+      });
+    }, 400);
+  });
 }
 
 function ordparRepeat() {
@@ -101,8 +148,8 @@ function ordparRepeat() {
   if (!ex || ex.current === -1) return;
   const typePrefix = ORDPAR_DATA[ordparCurrentType].type;
   const pairIdx = ex.current + 1;
-  const wordIdx = ex.currentAnswer + 1;
-  playAudio(`audio/ordpar/${S.voice}/${typePrefix}ord${pairIdx}-${wordIdx}.mp3`, 'ordpar');
+  const answerIdx = ex.currentAnswer + 1;
+  playAudio(`audio/ordpar/${S.voice}/${typePrefix}ord${pairIdx}-${answerIdx}.mp3`, 'ordpar');
 }
 
 function ordparGuess(chosenIdx) {
