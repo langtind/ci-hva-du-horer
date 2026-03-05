@@ -1,0 +1,427 @@
+{
+  "tekster": {
+    "categories": [
+      {
+        "speaker": "dame",
+        "label": "Damestemme",
+        "subcategories": [
+          {
+            "type": "fortelling",
+            "label": "Fortellinger",
+            "items": [
+              {
+                "id": "gullhaar",
+                "title": "Gullhår",
+                "type": "fortelling",
+                "subtype": "Eventyr",
+                "region": "Oslo",
+                "language": "bokmaal",
+                "vimeoId": "349814647",
+                "videoUrl": "https://player.vimeo.com/external/349814647.sd.mp4?s=3d8f81e616fac2f77ebd8acead1acdd38e0c9b74&profile_id=164",
+                "thumbnail": "06-tekster/thumbs/dame10.jpg",
+                "sentences": ["Gullhår og de tre bjørnene.<br><br>","Det var en gang tre bjørner. De bodde i et hus i en stor skog."," Det var en liten bjørn, en mellomstor bjørn og en stor bjørn.<br><br>","De hadde hver sin grøtbolle. Den lille bjørnen hadde en liten bolle."," Den mellomstore bjørnen hadde en mellomstor bolle."," Den store bjørnen hadde en stor bolle.<br><br>","De hadde hver sin stol. Den lille bjørnen hadde en liten stol."," Den mellomstore bjørnen hadde en mellomstor stol."," Den store bjørnen hadde en stor stol.<br><br>","De hadde hver sin seng. Den lille bjørnen hadde en liten seng."," Den mellomstore bjørnen hadde en mellomstor seng."," Den store bjørnen hadde en stor seng.<br><br>","En dag skulle de spise grøt til frokost. Men grøten var for varm. ","De måtte vente en stund. Imens gikk de en tur i skogen.<br><br>","Mens bjørnene var ute i skogen, kom ei jente til huset deres. Jenta het Gullhår."," Først så hun inn gjennom vinduet.  Så kikket hun inn gjennom nøkkelhullet."," Ingen var hjemme. Gullhår gikk inn.<br><br>","Hun så de tre grøtbollene. Det luktet godt. Gullhår var sulten.<br><br>","Hun smakte på grøten til den store bjørnen. ","Den var for varm. Hun brente seg på tunga."," Hun smakte på grøten til den mellomstore bjørnen. Den var for kald."," Hun smakte på grøten til den lille bjørnen. Den var passe."," Grøten var veldig god. Gullhår spiste opp alt.<br><br>"," Gullhår ville hvile."," Hun satte seg i stolen til den store bjørnen. Den var for hard."," Hun satte seg i stolen til den mellomstore bjørnen. Den var for myk."," Hun satte seg i stolen til den lille bjørnen. Den var god å sitte i."," Plutselig gikk stolen i stykker, og Gullhår falt i gulvet.<br><br>","Så gikk Gullhår opp trappa til soverommet."," Hun prøvde senga til den store bjørnen. Den var for hard."," Hun prøvde senga til den mellomstore bjørnen. Den var for myk."," Gullhår la seg i senga til den lille bjørnen. Den var god å ligge i."," Gullhår sovnet.<br><br>","Bjørnene sa: Nå har grøten blitt kald! De gikk hjem for å spise."," Men Gullhår hadde glemt skeia i grøtbollen til den store bjørnen.","<br>- NOEN HAR SPIST AV GRØTEN MIN! sa den store bjørnen.<br><br>","Gullhår hadde glemt skeia i grøtbollen til den mellomstore bjørnen også."," - NOEN HAR SPIST AV GRØTEN MIN! sa den mellomstore bjørnen."," - Noen har spist av grøten min, og spist opp alt! sa den lille bjørnen.<br><br>","De tre bjørnene så seg om i stua."," - NOEN HAR SITTET I STOLEN MIN! sa den store bjørnen."," - NOEN HAR SITTET I STOLEN MIN! sa den mellomstore bjørnen."," - Noen har sittet i stolen min, og den er ødelagt! sa den lille bjørnen.<br><br>","Bjørnene gikk til soverommet."," - NOEN HAR LIGGET I SENGA MI! sa den store bjørnen."," - NOEN HAR LIGGET I SENGA MI! sa den mellomstore bjørnen."," - Noen har ligget i senga mi – hun ligger der ennå! sa den lille bjørnen.<br><br>","Da våknet Gullhår. Hun så de tre bjørnene. Gullhår ble veldig redd."," Hun hoppet ut av senga og sprang ned trappa. Hun sprang ut av huset."," Hun ville komme seg langt bort så fort hun kunne. ","De tre bjørnene så henne aldri mer."," Gullhår gikk aldri mer inn i huset til noen som ikke var hjemme."],
+                "timecodes": [[0.7, 4.8], [4.9, 12.1], [12.2, 18.7], [19.6, 26.6], [26.7, 31.2], [31.3, 36.2], [36.8, 43.2], [43.3, 47.8], [47.9, 52.4], [53.0, 59.4], [59.5, 63.8], [63.9, 68.7], [69.3, 75.9], [76.0, 82.0], [83.3, 91.0], [91.1, 97.4], [97.5, 101.7], [102.8, 109.7], [109.8, 113.7], [113.8, 118.0], [118.1, 124.6], [124.7, 130.5], [130.6, 136.0], [137.2, 139.3], [139.4, 145.0], [145.1, 151.6], [151.7, 157.9], [158.0, 163.2], [164.2, 168.1], [168.2, 173.6], [173.7, 180.7], [180.8, 186.9], [187.0, 190.2], [190.3, 197.0], [197.1, 202.7], [202.8, 207.7], [207.8, 213.4], [213.5, 219.0], [219.1, 225.6], [226.4, 230.6], [230.7, 235.4], [235.5, 240.9], [241.0, 248.0], [249.0, 251.6], [251.7, 256.5], [256.6, 262.2], [262.3, 269.0], [269.1, 276.5], [276.6, 283.6], [283.7, 287.6], [287.7, 291.5], [291.6, 300]]
+              },
+              {
+                "id": "ulveslaget",
+                "title": "Ulveslaget",
+                "type": "fortelling",
+                "subtype": "Novelle (Utdrag)",
+                "region": "Oslo",
+                "language": "bokmaal",
+                "vimeoId": "349814714",
+                "videoUrl": "https://player.vimeo.com/external/349814714.sd.mp4?s=2f8ff08d9660a76c9b9f039052c14eaa604d12cf&profile_id=164",
+                "thumbnail": "06-tekster/thumbs/dame11.jpg",
+                "sentences": ["Da presten Storm bodde på prestegården i Øvre Rendalen,  ","  var det et høyt gjerde  rundt hundehuset,  ","  fordi ulven hadde drept gårdshunden. ","Senere ble gjerdet ødelagt. Det hadde ikke vært ulv i bygda på flere år,  ","  så far tenkte ikke  å sette opp et ytt gjerde. ","I prestegården hadde vi  to hunder, Ajaks og Hektor."," Ajaks var en liten svart og hvit harehund. Den likte godt å leke med oss smågutter,","  en den likte også  å slåss med andre hunder. ","Hektor var en stor bernhardiner med langt gulhvitt hår. Den likte barna godt. ","Når fremmedfolk kom til ården,  kunne den gjø på og glefse etter dem. ","Den bet aldri små hunder. ","Hektor var den største hunden på stedet, og Ajaks og Hektor var gode venner.<br><br>","En stjerneklar vinterkveld i 1858 lekte  vi smågutter med kjelkene våre  ","  nordenfor prestegården.","\"Hør\", sa broren min plutselig.  Vi hørte tydelige ulvehyl. ","Vi ble redde og ruslet hjem.  Nede på gården sto far. ","\"Hører (dele) dere ulvene?\"  spurte far. Vi gikk inn. ","Mor syntes også at det var uhyggelig.<br><br>","Ola Jonsen, drengen vår,  kom inn fra vedskjulet. ","Han sa at de måtte ta inn hundene for natta. Hektor fikk ligge på kammerset."," Det var populært for oss småguttene. ","Det tok oss lang tid før vi sovnet den kvelden. Og alle var redde for ulvene.<br><br>","Midt på natta våknet jeg av et skrik. barnepiken kom inn i rommet."," Hun så skremt ut. Vi gikk bort til vinduet for å se ut. Vi hørte noen rare lyder.<br><br>","På jordet utenfor gården  så vi mange dyr som slåss. ","Og mor sa at alle barna  skulle kle på seg. ","Vi sto og så på kampen mellom seks,  sju ulver og bygdas sinteste hunder.<br><br>","Plutselig springer drengen ut. Han  roper at Ajaks er med i slåsskampen. ","Drengen løper med øks mot ulveflokken. Og Hektor blir også sluppet ut. ","Han løper inn i ulveflokken og dreper ulvene. Ajaks blir dermed reddet."," Drengen bar Ajaks inn i huset."," Drengen og to gutter dro  etterpå tilbake til ulveflokken. ","Slaget var ferdig. Fire hunder  og noen ulver lå døde på jorda. ","Resten av ulvene var bort. Hektor gikk omkring og snuste på de døde dyrene. ","Etterpå gikk han hjem og inn til Ajaks. Begge hundene hadde store sår."," Neste dag kom det folk fra alle  bygdas gårder. De ville se slagstedet. ","Ei lita jente kom gråtende.  Hun spurte etter hunden sin, Flink. ","Flink hadde blitt revet i hjel av  ulvene. Hun fant biter av hunden. ","Og hun var svært lei seg."," Hektor var helten. Han hadde drept og jaget ulvene. Og alle skrøt av ham. "],
+                "timecodes": [[4.3, 9.2], [9.3, 12.4], [12.5, 16.3], [16.4, 22.8], [22.9, 26.6], [26.7, 32.1], [32.2, 38.9], [39.0, 42.7], [42.8, 51.0], [51.1, 56.8], [56.9, 59.5], [59.6, 66.7], [66.9, 74.2], [74.3, 76.9], [77.0, 82.6], [82.7, 88.7], [88.8, 94.4], [94.5, 98.9], [99.0, 103.7], [103.8, 110.2], [110.3, 112.9], [113.0, 119.2], [119.3, 125.1], [125.2, 134.3], [134.4, 138.5], [138.6, 142.3], [142.4, 149.3], [149.4, 155.6], [155.7, 162.0], [162.1, 169.2], [169.3, 172.7], [172.8, 177.7], [177.8, 184.6], [184.7, 192.1], [192.2, 198.7], [198.8, 205.8], [205.9, 211.8], [211.9, 216.5], [216.6, 219.9], [220.0, 229.0]]
+              },
+              {
+                "id": "pannekaka",
+                "title": "Pannekaka",
+                "type": "fortelling",
+                "subtype": "Eventyr",
+                "region": "Vestlandet",
+                "language": "nynorsk",
+                "vimeoId": "349814750",
+                "videoUrl": "https://player.vimeo.com/external/349814750.sd.mp4?s=80da5820fdf558e640c465f82438efd8e93307bd&profile_id=164",
+                "thumbnail": "06-tekster/thumbs/dame9.jpg",
+                "sentences": ["Det var ein gong ein mann og ei kone som hadde sju svoltne ungar.<br>","Så sa den første ungen: \"Å, mor! Eg er så svolten!\"<br>","Så sa den andre ungen: \"Å, kjære mor! Eg er så svolten!\"<br>","Og den tredje ungen sa: \"Å, kjære, søte mor! Eg er så svolten\".<br>","Den fjerde sa: \"Å, kjære, søte, snille mor! Eg er så svolten\".<br>","Og den femte sa: \"Å, kjære, søte, snille, vesle mor! Eg er så svolten\".<br>","Og den sjette sa: \"Å, kjære, søte, snille, vesle, gode mor! Eg er så svolten\".<br>","Og til slutt sa den sjuande ungen: ","\"Å, kjære, søte, snille, vesle, gode, beste mor! Eg er så svolten\"."," Vil du steike ei retteleg stor pannekake til oss?\"<br>"," \"Nei\", sa mor, \"eg har slett ikkje tid til å steike pannekaker i dag!\"<br>","\"Ja, men så vil eg steike ei pannekake til dykk\", sa faren. ","\"Eg vil steike ei retteleg stor pannekake til alle saman!\" <br><br>","Og så gjekk alle dei sju svoltne ungane og faren ut i kjøkkenet, ","og faren tok ei stor steikepanne og ein bolle, og han laga pannekakerøre."," Han slo røra i panna og sette ho på omnen,"," og alle barna stod rundt omkring og sleika seg om munnen.<br><br>","Så var pannekaka steika ferdig på den eine sida, ","og faren vende ho i panna, ","og der låg ho tjukk og god, og alle gledde seg til å ete henne.<br><br>","Så skjedde det noko merkeleg."," Pannekaka var nesten steika ferdig. ","Brått hoppa ho ut av panna og ned på golvet, ","og ho trilla av garde, ut av øra og ned til vegen, ","og mannen og kona og dei sju svoltne ungane sprang etter for å fange ho.<br>","\"Stopp og vent litt\", ropa dei, \"så kjem vi og et deg!\" ","Men pannekaka trilla berre vidare bortover vegen, ","og dei kunne ikkje fange henne."," På vegen møtte pannekaka ei høne.<br>","\"Stopp og vent litt\", ropa høna, \"så kjem eg og et deg\".<br>","\"Då må du fange meg først\", sa pannekaka. ","\"Men eg sprang frå ein mann og ei kone og sju svoltne ungar, ","og no spring eg frå deg óg!\"<br><br>","Pannekaka trilla og trilla, og litt etter møtte ho ein hane."," \"Stopp og vent litt\", ropa hanen, \"så kjem eg og et deg\"."," \"Då må du fange meg først\", sa pannekaka. ","Men eg sprang frå ein mann og ei kone og sju svoltne ungar"," og ei høne, og no spring eg frå deg óg!\"<br><br>","Pannekaka trilla vidare og vidare, og så møtte ho ei and."," \"Stopp og vent litt\", ropa anda, \"så kjem eg og et deg\"."," \"Då må du fange meg først\", sa pannekaka. ","Men eg sprang frå ein mann og ei kone og sju svoltne ungar og frå ei høne og frå ein hane, og no spring eg frå deg og!\"<br>","Og pannekaka trilla vidare og vidare."," Pannekaka møtte også ei gås, ein hund og ein katt,"," og ho sprang frå dei alle saman.<br><br>","Til slutt møtte pannekaka ein gris. ","Grisen sa: \"Stopp og vent litt, så kan vi springe saman!\"<br><br>"," Og så sprang grisen og pannekaka saman heilt til dei kom til ei elv. ","Der stoppa dei. Pannekaka kunne ikkje symje, og ho var redd."," Så sa ho til grisen:"," \"Kan du hjelpe meg over elva, for eg vil ikkje bli våt!\""," Grisen lo og sa: \"Jau, eg kan lett bære deg over elva."," Sett deg på trynet mitt, så sym eg over\".<br><br>","Og pannekaka hoppa opp på trynet til grisen ","– og ein, to, tre, så åt grisen pannekaka. ","Og fordi pannekaka ikkje kom lenger, er ikkje eventyret lenger heller."],
+                "timecodes": [[0.0, 6.0], [6.1, 12.1], [12.2, 19.0], [19.1, 26.3], [26.4, 33.6], [33.7, 42.1], [42.2, 51.3], [51.4, 55.1], [55.2, 63.3], [63.4, 67.5], [67.6, 73.5], [73.6, 79.5], [79.6, 84.9], [85.0, 92.4], [92.5, 99.5], [99.6, 104.9], [105.0, 109.7], [110.0, 116.0], [116.1, 118.3], [118.4, 124.3], [124.4, 128.6], [128.7, 132.5], [132.6, 137.5], [137.6, 143.1], [143.2, 150.0], [150.1, 154.6], [154.7, 159.1], [159.2, 161.5], [161.6, 166.5], [166.6, 171.8], [171.9, 175.9], [176.0, 181.6], [181.7, 184.4], [184.5, 191.3], [191.4, 196.5], [196.6, 200.3], [200.4, 205.5], [205.6, 209.6], [209.7, 217.3], [217.4, 222.2], [222.3, 226.0], [226.1, 236.5], [236.6, 242.2], [242.3, 247.7], [247.8, 251.1], [251.2, 256.4], [256.5, 261.8], [261.9, 267.9], [268.0, 274.5], [274.6, 277.0], [277.1, 281.5], [281.6, 286.7], [286.8, 290.4], [290.5, 295.6], [295.7, 300.3], [300.4, 307.4]]
+              }
+            ]
+          },
+          {
+            "type": "vits",
+            "label": "Vitser",
+            "regions": [
+              {
+                "region": "Oslo",
+                "language": "bokmaal",
+                "items": [
+                  {
+                    "id": "hardugulroetter",
+                    "title": "Har du gulrøtter",
+                    "type": "vits",
+                    "region": "Oslo",
+                    "language": "bokmaal",
+                    "vimeoId": "350051315",
+                    "videoUrl": "https://player.vimeo.com/external/350051315.sd.mp4?s=c6919b91fcd17c521751bec401603cc57854e026&profile_id=164",
+                    "thumbnail": "06-tekster/thumbs/dame4.jpg",
+                    "sentences": ["En kanin er ute for å kjøpe gulrøtter.<br>","Kaninen spør: - Har du gulrøtter?<br>","- Nei, jeg har ikke gulrøtter, svarer kjøpmannen.<br>","- Nei vel da."," Dagen etter kommer kaninen igjen til kjøpmannen spør:<br>","- Har du gulrøtter?<br>","- Nei, jeg har ikke gulrøtter, og dersom du kommer tilbake og spør om det en gang til, "," så spikrer jeg deg opp etter ørene på veggen.<br>","Kaninen drar hjem igjen uten gulrøtter. ","Kaninen er litt redd, ","men dagen etter bestemmer kaninen at han igjen skal dra til kjøpmannen.<br> ","Kaninen spør: - Har du spiker?<br>","- Nei, sa kjøpmannen, jeg har ikke spiker.<br>","- Har du gulrøtter?"],
+                    "timecodes": [[0.0, 3.8], [3.9, 7.0], [7.1, 10.5], [10.6, 11.8], [11.9, 16.2], [16.3, 18.1], [18.0, 23.2], [23.2, 26.0], [26.2, 29.4], [29.5, 31.3], [31.4, 35.8], [35.9, 39.4], [39.5, 42.7], [42.8, 44.9]]
+                  },
+                  {
+                    "id": "boennhoerelse",
+                    "title": "Bønnhørelse",
+                    "type": "vits",
+                    "region": "Oslo",
+                    "language": "bokmaal",
+                    "vimeoId": "350051224",
+                    "videoUrl": "https://player.vimeo.com/external/350051224.sd.mp4?s=dfea39ec380a21a08a25f09d3d78d15916c1c3e2&profile_id=164",
+                    "thumbnail": "06-tekster/thumbs/dame4.jpg",
+                    "sentences": ["En liten gutt ville så veldig gjerne ha litt mer penger. Han ba til Gud i flere uker,"," uten at det skjedde noen ting."," Til slutt bestemte han seg for å skrive et brev til Gud for å be om 1000 kroner."," Han adresserte brevet til \"Gud, Oslo\" og la det i postkassen."," På postkontoret sendte de brevet til statsminister Jens Stoltenberg."," Statsministen... Statsministeren synes dette var morsomt og sendte brevet videre til finansminister Kristin Halvorsen, med beskjed om å sende gutten penger."," Kristin Halvorsen synes 1000 kroner var litt for mye så hun sendte 100 kroner."," Den lille gutten ble veldig glad da han fikk pengene og satte seg ned og skrev et takkebrev til Gud:<br>"," \"-Kjære Gud, tusen takk for pengene. Jeg så forresten at du sendte det om…"," eeh regjeringen.  Det skulle du ikke ha gjort, for de folka der trakk 90 prosent i skatt!\""],
+                    "timecodes": [[0.3, 6.8], [6.9, 8.9], [9.0, 13.8], [13.9, 19.3], [19.4, 23.4], [23.5, 35], [35.1, 41.8], [41.9, 48.5], [48.6, 54.4], [54.5, 61.3]]
+                  },
+                  {
+                    "id": "flinkforretningsmann",
+                    "title": "Flink forretningsmann",
+                    "type": "vits",
+                    "region": "Oslo",
+                    "language": "bokmaal",
+                    "vimeoId": "350051264",
+                    "videoUrl": "https://player.vimeo.com/external/350051264.sd.mp4?s=194e93ee1df2c0dc6508a8304d89bb9a4915ebf0&profile_id=164",
+                    "thumbnail": "06-tekster/thumbs/dame4.jpg",
+                    "sentences": ["En av Norges dyktigste forretningsmenn var kjent for å være svært oppfinnsom når det gjaldt å spare penger."," En gang han skulle på en lengre forretningsreise til USA, ","kjørte han til en bank i Lillehammer der han ikke var så veldig kjent fra før og bad om et kortsiktig lån på 10.000 kroner."," Bankfunksjonæren mente at det sikkert kunne ordne seg,"," men han måtte stille sikkerhet.<br>"," De kunne få sikkerhet i bilen, en ganske ny Mercedes, mente forretningsmannen."," Det syntes bankfunksjonæren også var greit.<br>"," Forretningsmannen fikk pengene, og bankfunksjonæren fikk bilnøklene"," og så kjørte han bilen inn i bankens parkeringslokale."," En måned senere kom forretningsmannen tilbake for å løse inn lånet."," Bankfunksjonæren regnet ut at han skyldte de 10.000 kronene pluss 150 kroner i rente."," Forretningsmannen skrev ut en sjekk på beløpet og fikk bilnøklene."," Da han skulle til å gå, kikket bankfunksjonæren på ham:<br>"," - Det er en ting jeg lurer litt på. "," Etter at du dro, så fant jeg ut at du var mangmillionær."," Og hvorfor i all verden kommer du her og vil låne 10.000 kroner?"," Mannen smilte lurt tilbake og svarte:<br>"," Hvor ellers kan jeg parkere bilen min i en hel måned for bare 150 kroner?"],
+                    "timecodes": [[0.0, 7.5], [7.6, 11.8], [11.9, 22.1], [22.2, 26.2], [26.3, 30.2], [30.3, 37.4], [37.5, 41.6], [41.7, 46.2], [46.3, 52.0], [52.1, 59.8], [59.9, 69.3], [69.4, 75.6], [75.7, 80.0], [80.1, 82.2], [82.3, 87.3], [87.4, 93.2], [93.3, 97.0], [97.1, 104.5]]
+                  }
+                ]
+              },
+              {
+                "region": "Vestlandet",
+                "language": "nynorsk",
+                "items": [
+                  {"id": "vandrepokal", "title": "Vandrepokal", "type": "vits", "region": "Vestlandet", "language": "nynorsk", "vimeoId": "351342385", "videoUrl": "https://player.vimeo.com/external/351342385.sd.mp4?s=bc7fc8223f5149af0cb5bc6e0abd44afac4edd32&profile_id=164", "thumbnail": "06-tekster/thumbs/dame9.jpg", "sentences": ["To tjuva hadde brote seg inn i ei gullsmedforretning. ","Dei hadde forsynt seg godt med både smykke og andre fine ting, då den eine tok tak i en svær pokal som sto på ei hylle. <br>","- Nei, ikkje ta den! seier den andre. <br>","- Koffor ikkje? <br>","- Jo, du ser no vel at det e en vandrepokal, og då blir vi jo nødt te å ta 'an tre gonga!"], "timecodes": [[0.0, 5.0], [5.1, 15.4], [15.5, 18.1], [18.2, 19.5], [19.6, 26.6]]},
+                  {"id": "fotballkamp", "title": "Fotballkamp", "type": "vits", "region": "Vestlandet", "language": "nynorsk", "vimeoId": "351342399", "videoUrl": "https://player.vimeo.com/external/351342399.sd.mp4?s=85a8be333afb2498d9b96f0e2b3b2957163eb436&profile_id=164", "thumbnail": "06-tekster/thumbs/dame9.jpg", "sentences": ["Det va fotballkamp på Brann stadion. ","En av tilskuarane hadde tatt med seg kåna, og hon va ikkje like interessert i fotball som han.<br>","- Kem e det som spela? ville hon vite.<br>","- Jo, det e Brann og Rosenborg, svarte mannen.<br>","- Åja, men mot kem då?"], "timecodes": [[0.0, 3.9], [4.0, 11.5], [11.6, 14.5], [14.6, 17.8], [17.9, 20.5]]},
+                  {"id": "psykologar", "title": "Psykologar", "type": "vits", "region": "Vestlandet", "language": "nynorsk", "vimeoId": "351342460", "videoUrl": "https://player.vimeo.com/external/351342460.sd.mp4?s=def19a63329bdf278e92709954380c82a71a3acf&profile_id=164", "thumbnail": "06-tekster/thumbs/dame9.jpg", "sentences": ["To nyutdanna psykologa møttes på Karl Johan. <br>","- Sei meg, seie den eine. ","Du skull' ikkje vite om et pålitelig og rimelig bilverksted? <br>","- Nei dessverre, svara den andre. <br>","Slike ting har eg dessverre ikkje greie på. <br>","- Neivel, seie den første. <br>","Men det va i alle fall godt å få snakka med nåken om det. "], "timecodes": [[0.0, 5.9], [6.0, 8.3], [8.4, 13.7], [13.8, 17.2], [17.3, 21.5], [21.6, 24.3], [24.4, 30.1]]},
+                  {"id": "legevitenskapen", "title": "Den legeviteskapen", "type": "vits", "region": "Vestlandet", "language": "nynorsk", "vimeoId": "351342439", "videoUrl": "https://player.vimeo.com/external/351342439.sd.mp4?s=851b1085c10929236b6b5acb1cf80bd87f7357fd&profile_id=164", "thumbnail": "06-tekster/thumbs/dame9.jpg", "sentences": ["Peder va i sin beste alder og hadde aldri hatt behov for legehjelp. ","Men en dag vart han likevel sjuk med feber og vart innlagt på sjukehus. ","Der fekk han eit termometer i baken, og etter ei stond kom ein sjukepleiar. ","Ho tok termometeret ut og såg på det. <br>","- 39, sa ho. <br>","- Å, du store! sa Peder. Kan du virkelig sjå alderen der? "], "timecodes": [[0.0, 5.7], [5.8, 11.6], [11.7, 17.8], [17.9, 21.2], [21.3, 24.0], [24.1, 28.6]]},
+                  {"id": "ukjentsoldat", "title": "Ukjent soldat", "type": "vits", "region": "Vestlandet", "language": "nynorsk", "vimeoId": "351342361", "videoUrl": "https://player.vimeo.com/external/351342361.sd.mp4?s=7990b06cf9882e5c6950d26cd08457168dfb65ae&profile_id=164", "thumbnail": "06-tekster/thumbs/dame9.jpg", "sentences": ["Bresjnev, Sovjetunionens leiar, va på offisielt besøk i Finland. ","Kekkonen va den gong president i Finland. ","En av postane på programmet va kransnedlegging på den ukjente soldats grav. ","Like før dei skulle dra, fekk Kekkonen ei diskret melding om at plassen med den ukjente soldats grav va omringa av hissige demonstranta. ","Kekkonen blei litt engstelig for at Bresjnev kunne bli fornærma, og at det kunne skape vanskeligheta for forhandlingene. ","Han bestemte derfor at dei skulle forandre programmet og dra til monumentet over Sibelius, slik at Bresjnev kunne legge ned krans der. ","Då dei kom fram, viste det seg at Bresjnev var godt orientert om finsk historie. <br>","- Dette e då ikkje den ukjente soldats grav, men monumentet over den store komponisten Sibelius!<br>","Då var det Kekkonen viste sine evne som diplomat: <br>","- Ja, kamerat Bresjnev, stor og kjent komponist. ","Men som soldat - heilt ukjent!"], "timecodes": [[0.0, 7.0], [7.1, 11.5], [11.6, 18.4], [18.5, 31.4], [31.5, 40.9], [41.0, 53.4], [53.5, 60.9], [61.0, 69.7], [69.8, 74.7], [74.8, 79.4], [79.5, 84.6]]},
+                  {"id": "heidertilavdoede", "title": "Heider til avdøde", "type": "vits", "region": "Vestlandet", "language": "nynorsk", "vimeoId": "351342416", "videoUrl": "https://player.vimeo.com/external/351342416.sd.mp4?s=81570b89448f2ec1af56b4dda0705769a62255d3&profile_id=164", "thumbnail": "06-tekster/thumbs/dame9.jpg", "sentences": ["Det va en mann som hadde gjort mykje godt for døve, blinde og andre menneske. ","No va han død, og mange va komne i begravelsa for å vise sin takknemlighet for alt han hadde gjort for dei. ","Då kista va senka, kom folk med blomster som dei slapp ned i grava. ","En blind kom óg, men han hadd' ikkje nåken blomster. ","Han bretta sammen den kvite stokken sin og slapp den i grava. ","En kom i rullestol. Han hadde heller ingen blomst, men ville så gjerne gi et synlig bevis på sin takknemlighet. ","Han slapp seg ned på bakken og dytta rullestolen ned i grava. ","Ei med CI kom óg. Heller ikkje ho hadde med blomster, ","men med tåre i augene tok ho av seg CI-en og slapp den ned i grava. ","Til sist stod en døv igjen. Ikkje hadde han blomster, ikkje høyreapparat eller CI, ikkje stokk en gong. ","Han såg seg forsiktig rundt. Kva kunne vel han gi? ","Jo visst! kom han på, tok tolken og kasta ho ned i grava."], "timecodes": [[0.0, 7.7], [7.8, 18.5], [18.6, 25.5], [25.6, 30.7], [30.8, 37.0], [37.1, 48.0], [48.1, 54.5], [54.6, 59.8], [59.9, 67.6], [67.7, 78.3], [78.4, 84.0], [84.1, 90.2]]}
+                ]
+              },
+              {
+                "region": "Nord-Norge",
+                "language": "dialekt",
+                "items": [
+                  {"id": "svoemmeren", "title": "Svømmeren", "type": "vits", "region": "Nordland", "language": "dialekt", "vimeoId": "351353978", "videoUrl": "https://player.vimeo.com/external/351353978.sd.mp4?s=4908506737a4f5030892579380bc659b2a3f95f9&profile_id=164", "thumbnail": "06-tekster/thumbs/dame5.jpg", "sentences": ["En mainn uten bein og arma sku vær med å svøm under OL. ","Hainn hoppa ut i vainne og håill på å drokn. ","Etter ei stund ble han dratt opp på land, ","og da hainn hadde kommet til hektan igjen, blei hainn intervjua. ","Journalisten sporte: Ka va det som skjedde? <br>","- Nei du skjønna, æ har øvd i 6 år på å svøm med øran, ","og så e dem så dom at dem tar på mæ badehette! "], "timecodes": [[0.0, 6.2], [6.3, 10.2], [10.3, 13.1], [13.2, 17.3], [17.4, 21.4], [21.5, 27.2], [27.3, 31.7]]},
+                  {"id": "aftenboenn", "title": "Aftenbønn", "type": "vits", "region": "Tromsoe", "language": "dialekt", "vimeoId": "351354072", "videoUrl": "https://player.vimeo.com/external/351354072.sd.mp4?s=689e0a0460482e5c1380525c3aa77921016e693e&profile_id=164", "thumbnail": "06-tekster/thumbs/dame1.jpg", "sentences": ["Han Ola skulle be aftenbønn.<br>","- Kjære Gud, la London bli hovedstad i Frankrike, bad han.<br>","- Koffer ber du om det? sporte ho mor.<br>","- Fordi det var det æ svarte på geografiprøven i dag, sa han Ola."], "timecodes": [[0.0, 2.9], [3.0, 8.1], [8.2, 10.4], [10.5, 15.6]]},
+                  {"id": "oljedebatten", "title": "Oljedebatten", "type": "vits", "region": "Tromsoe", "language": "dialekt", "vimeoId": "351353938", "videoUrl": "https://player.vimeo.com/external/351353938.sd.mp4?s=f1a8582623438716887f2f5ce664d6ec7e2dd0d5&profile_id=164", "thumbnail": "06-tekster/thumbs/dame1.jpg", "sentences": ["Det e mange ulike syn på oljeutvinninga utafør Lofoten. ","Men det e i hvert fall ingen tvil om at olje e farlig før fisk. ","E det nå'n som har åpna en boks med sardina i olje uten at fisken har vært død?"], "timecodes": [[0.0, 5.0], [5.1, 7.9], [8.0, 13.2]]},
+                  {"id": "pensjonisttilvaerelsen", "title": "Pensjonist-tilværelsen", "type": "vits", "region": "Tromsoe", "language": "dialekt", "vimeoId": "351353955", "videoUrl": "https://player.vimeo.com/external/351353955.sd.mp4?s=194af678d6a429c4c6df00e171bf448db4883e01&profile_id=164", "thumbnail": "06-tekster/thumbs/dame1.jpg", "sentences": ["- Nå, Ivar, har du nå'n plana før pensjonisttilværelsen, da? <br>","- Ja, den første uka ska æ sitt i gyngestol. <br>","- Og etter det da? <br>","- Ja, når den uka e ferdig, så skal æ begynn å gynge litt. "], "timecodes": [[0.0, 4.0], [4.1, 7.5], [7.6, 9.6], [9.7, 13.8]]},
+                  {"id": "tomatene", "title": "Tomatene", "type": "vits", "region": "Tromsoe", "language": "dialekt", "vimeoId": "351354030", "videoUrl": "https://player.vimeo.com/external/351354030.sd.mp4?s=1b7a3e4b19c83cd71963778dd4c69c33de5a4c75&profile_id=164", "thumbnail": "06-tekster/thumbs/dame1.jpg", "sentences": ["Det va to tomata som gikk over ei bru. Så blei den ene påkjørt. ","Da sa den andre: Kom an, ketchup!"], "timecodes": [[0.0, 5.0], [5.1, 8.4]]},
+                  {"id": "elgjakt", "title": "Elgjakt", "type": "vits", "region": "Helgeland", "language": "dialekt", "vimeoId": "351354099", "videoUrl": "https://player.vimeo.com/external/351354099.sd.mp4?s=57b0878e3d21376d1eaecb0d98baa584806b239e&profile_id=164", "thumbnail": "06-tekster/thumbs/dame7.jpg", "sentences": ["Ælgjakta kuinn vær en risikabel sport før i tida. ","Ikkje skaut dem så godt, og det var'kje all som såg så godt heller. ","Ein gammel ælgjæger var ein gong på fest og da traff han ein annan kar som og var ein ivrig ælgjæger. ","Og han syns det var noko kjent med'n. <br>","- Ha'kje æ troffe de før?<br>","- Jau da, du traff mæ i fjol, - i arme."], "timecodes": [[0.0, 4.2], [4.3, 9.1], [9.2, 16.6], [16.7, 19.3], [19.4, 21.9], [22.0, 25.3]]},
+                  {"id": "minbaat", "title": "Min båt", "type": "vits", "region": "Helgeland", "language": "dialekt", "vimeoId": "351353905", "videoUrl": "https://player.vimeo.com/external/351353905.sd.mp4?s=ca7aa0f172ec27e71a2539dcfe3b83f1c19dc2c9&profile_id=164", "thumbnail": "06-tekster/thumbs/dame7.jpg", "sentences": ["Olaf og Anton, dem høre te kvar sett politiske parti, ","men det e'kje vær' einn at dem  e ut og feske i lag. ","Dem bruka Anton sin båt, og dem ha slåppi snøra medt uti fjol'n. ","Dem prata om vær og feske og kvardagslige ting, ","men etter kvart så kjem han Olaf inn på det siste Stortingsvalget. ","Han va kjempefornøyd med det. ","Då tent han Anton: <br>","- Ha dæ ut av båten min, din skitjævel! Det e min båt!"], "timecodes": [[0.0, 4.5], [4.6, 8.1], [8.2, 13.5], [13.6, 18.8], [18.9, 22.8], [22.9, 25.1], [25.2, 27.2], [27.3, 31.9]]},
+                  {"id": "utenbedoevelse", "title": "Uten bedøvelse", "type": "vits", "region": "Helgeland", "language": "dialekt", "vimeoId": "351354049", "videoUrl": "https://player.vimeo.com/external/351354049.sd.mp4?s=b83d7b587a241c87e89d64a373d3a1925113346d&profile_id=164", "thumbnail": "06-tekster/thumbs/dame7.jpg", "sentences": ["Vi fra Helgeland, vi e kjent for å vær noko hardbarkinga. ","Vi syt ikkje for ingenting! ","Ein helgelending kom til tannlegen for å borr eit hol i ein jeksel. <br>","- Æ e redd for at det kan bli noko vondt når æ bore, sei tannlegen. ","Æ lure på om vi ska sett bedøvels? <br>","- Nei, da, vi fra Helgeland, vi treng ikkje bruk bedøvels. ","Berre sett i gang du. <br>","Tannlegen b'ynt å borr, og - han borra ei stund, og så tok han ein pause. <br>","- Ja, da e vi ferdig med første runde, men vi må ta litt te. <br>","Da kom det forsiktig fra pasienten: <br> - Du, egentlig så e ikkje æ fra Helgeland. E e frå Namsos. "], "timecodes": [[0.0, 4.9], [5.0, 6.8], [6.9, 12.6], [12.7, 17.8], [17.9, 19.9], [20.0, 24.2], [24.3, 25.7], [25.8, 30.9], [31.0, 35.1], [35.2, 42.6]]}
+                ]
+              },
+              {
+                "region": "Stavanger og Soerlandet",
+                "language": "dialekt",
+                "items": [
+                  {"id": "filosofi", "title": "Filosofi", "type": "vits", "region": "Stavanger", "language": "dialekt", "vimeoId": "351369332", "videoUrl": "https://player.vimeo.com/external/351369332.sd.mp4?s=6eef5a58c1945f0e87db23c1f1770056a34b87b3&profile_id=164", "thumbnail": "06-tekster/thumbs/dame8.jpg", "sentences": ["Kjutta og Tomadtå satt og såg ud over havet og filosoferte.<br>","- Eg lurer meg på kor mangen bytter med vann det går i havet, seie Tomadtå.<br>","- Hm - ja, det kommer vel an på kor store byttene er det, meinte Kjuttå.<br>"], "timecodes": [[0.0, 5.5], [5.6, 12.0], [12.1, 18.4]]},
+                  {"id": "turistnaeringa", "title": "Noe for turistnæringa", "type": "vits", "region": "Stavanger", "language": "dialekt", "vimeoId": "351369240", "videoUrl": "https://player.vimeo.com/external/351369240.sd.mp4?s=e71420765b7896f8952492de6c87fd342eb0dd90&profile_id=164", "thumbnail": "06-tekster/thumbs/dame8.jpg", "sentences": ["To kompisar satt med  Breiavatnet og snakte om laust og fast. ","De hadde lest i Aftenbladet at kommunestyret var opptatt av å få flere turistar te byen. ","Det var de begge to heilt enige i. ","Så den eine tenkte at - viss me no sette ut ein gondol på vatnet, ville ikkje det vere kjekt å se på? <br>","- Jo, det va ein kjempegod ide, sa den andre. ","Men når me fyste ska setta ud nogen, må me ikkje då setta ud to, så me kan få ein heile bestand!"], "timecodes": [[0.0, 5.0], [5.1, 11.1], [11.2, 13.7], [13.8, 22.1], [22.2, 26.3], [26.4, 33.1]]},
+                  {"id": "kjettingen", "title": "Kjettingen", "type": "vits", "region": "Soerlandet", "language": "dialekt", "vimeoId": "351369354", "videoUrl": "https://player.vimeo.com/external/351369354.sd.mp4?s=406f5fe1fbde6c3241eed3bb12bf53d6adebb768&profile_id=164", "thumbnail": "06-tekster/thumbs/dame6.jpg", "sentences": ["Kjutta var ein original fra Kristiansand som ofte kom med replikke som folk mintes. ","Ein dag gjekk han rundt i byen og drog på ein kjetting. <br>","- Koffor gjenge du og drege på den kjettingen? var det ein som spørde.<br>","- He du prøvd å skuve han, kanskje? svarte Kjutta. "], "timecodes": [[0.0, 7.8], [7.9, 13.7], [13.8, 20.0], [20.1, 25.7]]},
+                  {"id": "litenbil", "title": "Liten bil", "type": "vits", "region": "Soerlandet", "language": "dialekt", "vimeoId": "351369395", "videoUrl": "https://player.vimeo.com/external/351369395.sd.mp4?s=dded6dd908242383cd0107fbfb82e61d1939724f&profile_id=164", "thumbnail": "06-tekster/thumbs/dame6.jpg", "sentences": ["Olsen er nokså storvokst. ","Naboen blei derfor forskrekka då han fikk sjå en bitteliden el-bil føre innganga deiras. <br>","- E 'kje den litt liden for deg som er så storvokst, spør han. ","Kossen klarer du å sette deg inn i den? <br>","- E sette meg ikkje inn i 'an, svarte Olsen. E teg 'an på mæ. "], "timecodes": [[0.0, 2.6], [2.7, 13.1], [13.2, 20.0], [20.1, 24.5], [24.6, 31.2]]},
+                  {"id": "snoemaaking", "title": "Snømåking", "type": "vits", "region": "Soerlandet", "language": "dialekt", "vimeoId": "351369265", "videoUrl": "https://player.vimeo.com/external/351369265.sd.mp4?s=fdbb32524533d7f887c79b1b0faf8bbaa522ff4a&profile_id=164", "thumbnail": "06-tekster/thumbs/dame6.jpg", "sentences": ["Etter eit kraftig snøfall på Sørlandet blei ein huseigar bekymra for taget. ","Han leigde ein mann til å måge a det. ","Mannen skulle få timebetaling for arbeidet. ","Da han sko betale, synts huseigaren det blei dyrt, ","og bemerkte at han synts det hadde tatt svært lang tid. <br>","- Ja, det forstår eg godt, svarte k... mannen. ","Men så hi nok ikkje taget vore måga på fleire år heller. "], "timecodes": [[0.0, 8.1], [8.2, 12.3], [12.4, 16.8], [16.9, 22.4], [22.5, 28.6], [28.7, 32.6], [32.7, 37.7]]},
+                  {"id": "daarligvei", "title": "Dårlig vei", "type": "vits", "region": "Soerlandet", "language": "dialekt", "vimeoId": "351369287", "videoUrl": "https://player.vimeo.com/external/351369287.sd.mp4?s=05f1b69d7196e5fc790b23dfab52258c398d9084&profile_id=164", "thumbnail": "06-tekster/thumbs/dame6.jpg", "sentences": ["Europavei 39 sko utvides og forbedres. ","Mens arbeidet pågjekk, var veien svært holete og dårlig eit langt stykke. ","Ein bilist kom kjørans, og då han fekk sjå en bonde i veikanten, ","stansa han og spørde kossen veien var vidare framøve. <br>","- He du laustenner? spurde bonden tebage. <br>","- Ja, svarte bilisten litt forskrekka. <br>","- Ta dei ut! svarte bonden."], "timecodes": [[0.0, 6.0], [6.1, 14.2], [14.3, 20.4], [20.5, 25.8], [25.9, 30.7], [30.8, 34.7], [34.8, 38.5]]}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "saktekst",
+            "label": "Saktekster",
+            "regions": [
+              {
+                "region": "Bokmaal",
+                "language": "bokmaal",
+                "items": [
+                  {"id": "bordercollie", "title": "Border Collie", "type": "saktekst", "region": "Oslo", "language": "bokmaal", "vimeoId": "350908586", "videoUrl": "https://player.vimeo.com/external/350908586.sd.mp4?s=76eb788a87641ce6588df3343ee2aacc99afbc78&profile_id=164", "thumbnail": "06-tekster/thumbs/dame5.jpg", "sentenceCount": 22, "timecodeCount": 22},
+                  {"id": "kunstigoeye", "title": "Kunstig øye", "type": "saktekst", "region": "Oslo", "language": "bokmaal", "vimeoId": "350908615", "videoUrl": "https://player.vimeo.com/external/350908615.sd.mp4?s=3bb07dcfb15f700048338918897b85308d0e55a9&profile_id=164", "thumbnail": "06-tekster/thumbs/dame14.jpg", "sentenceCount": 8, "timecodeCount": 8},
+                  {"id": "navleloensgaate", "title": "Navleloens gåte", "type": "saktekst", "region": "Oslo", "language": "bokmaal", "vimeoId": "350908638", "videoUrl": "https://player.vimeo.com/external/350908638.sd.mp4?s=7f6071938887201bee751b48697f76b67eb8d7f5&profile_id=164", "thumbnail": "06-tekster/thumbs/dame14.jpg", "sentenceCount": 14, "timecodeCount": 14},
+                  {"id": "sivertsensmith", "title": "Sivertsen Smith", "type": "saktekst", "region": "Oslo", "language": "bokmaal", "vimeoId": "350908555", "videoUrl": "https://player.vimeo.com/external/350908555.sd.mp4?s=870ce4e528ad85cc710377553795ca784ff3d3c8&profile_id=164", "thumbnail": "06-tekster/thumbs/dame15.jpg", "sentenceCount": 43, "timecodeCount": 43}
+                ]
+              },
+              {
+                "region": "Nynorsk",
+                "language": "nynorsk",
+                "items": [
+                  {"id": "hund", "title": "Hund", "type": "saktekst", "region": "Vestlandet", "language": "nynorsk", "vimeoId": "351589315", "videoUrl": "https://player.vimeo.com/external/351589315.sd.mp4?s=a646bc769df0fde598e2c14ab2b6f201efc22012&profile_id=164", "thumbnail": "06-tekster/thumbs/dame9.jpg", "sentenceCount": 22, "timecodeCount": 22},
+                  {"id": "atlanterhavsvegen", "title": "Atlanterhavsvegen", "type": "saktekst", "region": "Vestlandet", "language": "nynorsk", "vimeoId": "351589290", "videoUrl": "https://player.vimeo.com/external/351589290.sd.mp4?s=4cf444fcd5b0fe794a954e11914290ba61222a24&profile_id=164", "thumbnail": "06-tekster/thumbs/dame3.jpg", "sentenceCount": 13, "timecodeCount": 13},
+                  {"id": "smaaviltjakt", "title": "Småviltjakt heile året", "type": "saktekst", "region": "Vestlandet", "language": "nynorsk", "vimeoId": "351589244", "videoUrl": "https://player.vimeo.com/external/351589244.sd.mp4?s=8f068551af0f3053c23de828b5edb8a704f31287&profile_id=164", "thumbnail": "06-tekster/thumbs/dame9.jpg", "sentenceCount": 24, "timecodeCount": 24}
+                ]
+              },
+              {
+                "region": "Forskjellige dialekter",
+                "language": "dialekt",
+                "items": [
+                  {"id": "kristiansund", "title": "Kristiansund", "type": "saktekst", "region": "Nordmoere", "language": "dialekt", "vimeoId": "351980159", "videoUrl": "https://player.vimeo.com/external/351980159.sd.mp4?s=feb4bda2497988d38335032a5d8dc40724609a2f&profile_id=164", "thumbnail": "06-tekster/thumbs/dame13.jpg", "sentenceCount": 21, "timecodeCount": 21},
+                  {"id": "tromsoe", "title": "Tromsø", "type": "saktekst", "region": "Tromsoe", "language": "dialekt", "vimeoId": "351980100", "videoUrl": "https://player.vimeo.com/external/351980100.sd.mp4?s=d2da9cb83c2b4ed956e9755f7cae97839cf2c6a2&profile_id=164", "thumbnail": "06-tekster/thumbs/dame1.jpg", "sentenceCount": 8, "timecodeCount": 8},
+                  {"id": "musikkutdannelse", "title": "Musikkutdannelse", "type": "saktekst", "region": "Tromsoe", "language": "dialekt", "vimeoId": "351980192", "videoUrl": "https://player.vimeo.com/external/351980192.sd.mp4?s=7d3ab0b29d4fe23a82cb014609c3b2ef94910b83&profile_id=164", "thumbnail": "06-tekster/thumbs/dame1.jpg", "sentenceCount": 11, "timecodeCount": 11},
+                  {"id": "utaafly", "title": "Ut å fly", "type": "saktekst", "region": "Troendelag", "language": "dialekt", "vimeoId": "351980110", "videoUrl": "https://player.vimeo.com/external/351980110.sd.mp4?s=54076f41663e533a3545abcf67dbc3561918fbca&profile_id=164", "thumbnail": "06-tekster/thumbs/dame3.jpg", "sentenceCount": 15, "timecodeCount": 15},
+                  {"id": "kniksen", "title": "Kniksen", "type": "saktekst", "region": "Bergen", "language": "dialekt", "vimeoId": "351980118", "videoUrl": "https://player.vimeo.com/external/351980118.sd.mp4?s=f7bd54ea6b667812fda9b5dc529fa6d54f8f9fb9&profile_id=164", "thumbnail": "06-tekster/thumbs/dame12.jpg", "sentenceCount": 36, "timecodeCount": 36},
+                  {"id": "sikkerhetpaafly", "title": "Sikkerhet på fly", "type": "saktekst", "region": "bare lyd", "language": "bokmaal", "vimeoId": "351980086", "videoUrl": "https://player.vimeo.com/external/351980086.sd.mp4?s=99ccc2538e1a299a88307bbfef7c1fa4aac574ab&profile_id=164", "thumbnail": "06-tekster/thumbs/Fly.jpg", "sentenceCount": 20, "timecodeCount": 20}
+                ]
+              }
+            ]
+          },
+          {
+            "type": "dialog",
+            "label": "Dialoger",
+            "items": [
+              {"id": "uteogtriller", "title": "Ute og triller", "type": "dialog", "region": "Oest-Norge og Troendelag", "language": "dialekt", "vimeoId": "351157166", "videoUrl": "https://player.vimeo.com/external/351157166.sd.mp4?s=a2955588c645587b5a33d0ad0e1e83d56c6cdeef&profile_id=164", "thumbnail": "06-tekster/thumbs/dame16.jpg", "sentenceCount": 32, "timecodeCount": 32},
+              {"id": "heimbygd", "title": "Heimbygd", "type": "dialog", "region": "Hardanger og Nordfjord", "language": "dialekt", "vimeoId": "351157121", "videoUrl": "https://player.vimeo.com/external/351157121.sd.mp4?s=a3f72757f1627f1be5f5867be30f2b8155f0bc5b&profile_id=164", "thumbnail": "06-tekster/thumbs/dame17.jpg", "sentenceCount": 41, "timecodeCount": 41},
+              {"id": "eple", "title": "Eple", "type": "dialog", "region": "Hardanger og Nordfjord", "language": "dialekt", "vimeoId": "351157076", "videoUrl": "https://player.vimeo.com/external/351157076.sd.mp4?s=522d8098cf0d833ccfaebef88b6889d468eb94ae&profile_id=164", "thumbnail": "06-tekster/thumbs/dame17.jpg", "sentenceCount": 14, "timecodeCount": 14}
+            ]
+          },
+          {
+            "type": "dikt",
+            "label": "Dikt",
+            "items": [
+              {"id": "treetstodferdig", "title": "Treet stod ferdig", "type": "dikt", "region": "Oslo", "language": "bokmaal", "vimeoId": "351162845", "videoUrl": "https://player.vimeo.com/external/351162845.sd.mp4?s=bdc3e3986cd8df29927e1a8172aedb08bfa0a7b9&profile_id=164", "thumbnail": "06-tekster/thumbs/dame2.jpg", "sentences": ["Treet stod ferdig <br><br>","Treet stod ferdig med blad og med knopp. <br>","\"Ska æ ta dem?\" sa frosten og pustet seg opp. <br>","\"Nei, kjære, la dem stå, til blomster sitter på!\" <br>bad treet og skalv ifra rot og til topp. <br><br>","Treet fikk blomster, så fuglene sang. <br>","\"Skal jeg ta dem?\" sa vinden og viftet og svang. <br>","\"Nei, kjære, la dem stå, til bæret sitter på!\" <br>bad treet, i vinden det dirrende hang. <br><br>","Og treet fikk bær under soløyets glød. <br>","\"Skal jeg ta dem?\" sa jenten så ung og så rød. <br>"," \"Ja, kjære, du kan ta, så mange du vil ha\", <br>sa treet, og grenen det bugnende bød. "], "timecodes": [[0.0, 2.2], [2.3, 5.9], [6.0, 9.1], [9.2, 15.8], [15.9, 19.5], [19.6, 22.7], [22.8, 28.6], [28.7, 32.4], [32.5, 35.2], [35.3, 40.9]]},
+              {"id": "allemineklaer", "title": "Alle mine klær", "type": "dikt", "region": "Oslo", "language": "bokmaal", "vimeoId": "351162821", "videoUrl": "https://player.vimeo.com/external/351162821.sd.mp4?s=72774fe01ee656f0a67c3851288e2f1d7d8aafa9&profile_id=164", "thumbnail": "06-tekster/thumbs/dame2.jpg", "sentences": ["Alle mine klær<br><br>","Stygge, sandete, sure sokker<br>","Ikke så mye ved dem som lokker<br>","Gråe, grønne, gigantiske genser<br>","Like kul som en bergenser<br><br>","Store, skrukkete, snodige skjorte<br>","Så alt for stor, at jeg nesten blir borte<br>","Brune, beige, barske bukser<br>","Like sinte som (sto) to okser<br><br>","Lure, lune, late lue<br>","Sitter så fint rundt mitt eget hue<br>","Svarte, sølete, stripete sko<br>","En til hver fot, fordi vi har to<br><br>","Alle mine snåle klær<br>","Fra toppen av hodet, og til mine tær.<br>"], "timecodes": [[0.0, 2.2], [2.3, 5.2], [5.3, 7.4], [7.5, 10.6], [10.7, 13.2], [13.3, 16.6], [16.7, 19.6], [19.7, 22.2], [22.3, 25.2], [25.3, 28.1], [28.2, 30.6], [30.7, 33.7], [33.8, 36.2], [36.3, 38.6], [38.7, 42.0]]}
+            ]
+          }
+        ]
+      },
+      {
+        "speaker": "mann",
+        "label": "Mannestemme",
+        "subcategories": [
+          {
+            "type": "fortelling",
+            "label": "Fortellinger",
+            "items": [
+              {"id": "bjellepaakatten", "title": "Bjelle på katten", "type": "fortelling", "subtype": "Eventyr", "region": "Oslo", "language": "bokmaal", "vimeoId": "352427501", "videoUrl": "https://player.vimeo.com/external/352427501.sd.mp4?s=c8d015503d26c6eb33b93d9e043af4b5d63e5568&profile_id=164", "thumbnail": "06-tekster/thumbs/mann1.jpg", "sentenceCount": 19, "timecodeCount": 19},
+              {"id": "hvorforbjoernenharkorthale", "title": "Hvorfor bjørnen har kort hale", "type": "fortelling", "subtype": "Eventyr", "region": "Oslo", "language": "bokmaal", "vimeoId": "352427525", "videoUrl": "https://player.vimeo.com/external/352427525.sd.mp4?s=296cbb280ffbe4560f2e38a31a46d0e8d7db3222&profile_id=164", "thumbnail": "06-tekster/thumbs/mann2.jpg", "sentenceCount": 18, "timecodeCount": 18}
+            ]
+          },
+          {
+            "type": "vits",
+            "label": "Vitser",
+            "items": [
+              {"id": "verdenseldsteyrke", "title": "Verdens eldste yrke", "type": "vits", "region": "Oest-Norge", "language": "bokmaal", "vimeoId": "352637385", "videoUrl": "https://player.vimeo.com/external/352637385.sd.mp4?s=4b4bbd6983391a6a4bee6f16fd90294cd114b5ad&profile_id=164", "thumbnail": "06-tekster/thumbs/mann4.jpg", "sentenceCount": 12, "timecodeCount": 12},
+              {"id": "fotballspillere", "title": "Fotballspillere", "type": "vits", "region": "Troendelag", "language": "dialekt", "vimeoId": "352637318", "videoUrl": "https://player.vimeo.com/external/352637318.sd.mp4?s=980496ee473e9a5820f630bba557b10b9e393c9b&profile_id=164", "thumbnail": "06-tekster/thumbs/mann2.jpg", "sentenceCount": 5, "timecodeCount": 5},
+              {"id": "storfisk", "title": "Stor fisk", "type": "vits", "region": "Troendelag", "language": "dialekt", "vimeoId": "352637364", "videoUrl": "https://player.vimeo.com/external/352637364.sd.mp4?s=26981ca102e29870064bfa54322b1b917f1c3c82&profile_id=164", "thumbnail": "06-tekster/thumbs/mann2.jpg", "sentenceCount": 8, "timecodeCount": 8},
+              {"id": "harenogskilpadda", "title": "Haren og skilpadda", "type": "vits", "region": "Troendelag", "language": "dialekt", "vimeoId": "352639201", "videoUrl": "https://player.vimeo.com/external/352639201.sd.mp4?s=4987e4357432dc2678d6006a0beac5d81c3dd97f&profile_id=164", "thumbnail": "06-tekster/thumbs/mann2.jpg", "sentenceCount": 13, "timecodeCount": 13},
+              {"id": "roedioeynene", "title": "Rød i øynene", "type": "vits", "region": "Stavanger", "language": "dialekt", "vimeoId": "352637348", "videoUrl": "https://player.vimeo.com/external/352637348.sd.mp4?s=4418bcd617277c2ae5d13cdf7b70d269313272a2&profile_id=164", "thumbnail": "06-tekster/thumbs/mann3.jpg", "sentenceCount": 7, "timecodeCount": 7},
+              {"id": "edderkoppisuppa", "title": "Edderkopp i suppa", "type": "vits", "region": "Stavanger", "language": "dialekt", "vimeoId": "352639178", "videoUrl": "https://player.vimeo.com/external/352639178.sd.mp4?s=b55ca703bc39770bcccec2cfd5997ba16d9b34a1&profile_id=164", "thumbnail": "06-tekster/thumbs/mann3.jpg", "sentenceCount": 6, "timecodeCount": 6}
+            ]
+          },
+          {
+            "type": "saktekst",
+            "label": "Saktekster",
+            "items": [
+              {"id": "paasketur", "title": "Påsketur", "type": "saktekst", "region": "Oslo", "language": "bokmaal", "vimeoId": "352641130", "videoUrl": "https://player.vimeo.com/external/352641130.sd.mp4?s=2e78fe8ac672f997f5f3d46d130ed98afd4b2902&profile_id=164", "thumbnail": "06-tekster/thumbs/mann1.jpg", "sentenceCount": 13, "timecodeCount": 13},
+              {"id": "hoerselshemmetidentitet", "title": "Hørselshemmet identitet", "type": "saktekst", "region": "Oslo", "language": "bokmaal", "vimeoId": "352641069", "videoUrl": "https://player.vimeo.com/external/352641069.sd.mp4?s=ecb1cab7976e2df54f7606c5296da2afa9ae19de&profile_id=164", "thumbnail": "06-tekster/thumbs/mann1.jpg", "sentenceCount": 31, "timecodeCount": 31},
+              {"id": "infomotsluttenavreisen", "title": "Info mot slutten av reisen", "type": "saktekst", "region": "Oslo", "language": "bokmaal", "vimeoId": "352641102", "videoUrl": "https://player.vimeo.com/external/352641102.sd.mp4?s=dc14257c69d2c80b041bd93ec65b665269b413e7&profile_id=164", "thumbnail": "06-tekster/thumbs/Fly.jpg", "sentenceCount": 6, "timecodeCount": 6}
+            ]
+          }
+        ]
+      },
+      {
+        "speaker": "barn",
+        "label": "Barnestemme",
+        "subcategories": [
+          {
+            "type": "vits",
+            "label": "Vits",
+            "items": [
+              {"id": "golvklokka", "title": "Golvklokka", "type": "vits", "region": "Oslo", "language": "bokmaal", "vimeoId": "352646228", "videoUrl": "https://player.vimeo.com/external/352646228.sd.mp4?s=9f1644d823c2217b954dd7a885279c5fc6e622bc&profile_id=164", "thumbnail": "06-tekster/thumbs/barn1.jpg", "sentenceCount": 5, "timecodeCount": 5}
+            ]
+          },
+          {
+            "type": "dialog",
+            "label": "Dialog",
+            "items": [
+              {"id": "teaterlagetiBUL", "title": "Teaterlaget i BUL", "type": "dialog", "region": "Troendelag", "language": "dialekt", "vimeoId": "352646244", "videoUrl": "https://player.vimeo.com/external/352646244.sd.mp4?s=1d1b75bcb8ff6fa8a2345c16a63f8a5e094922c7&profile_id=164", "thumbnail": "06-tekster/thumbs/barn2.jpg", "sentenceCount": 26, "timecodeCount": 26}
+            ]
+          }
+        ]
+      }
+    ],
+    "_note": "Full sentence and timecode arrays are included for fortellinger, vitser (dame/Oslo, dame/Vestlandet, dame/Nord-Norge, dame/Stavanger+Soerlandet), and dikt. For saktekster, dialoger, and mann/barn items, sentenceCount and timecodeCount are provided. All raw data is available in the companion files tekster_raw.js and tekster_raw.html."
+  },
+  "musikk": {
+    "sanger": {
+      "description": "Songs module - users can listen or practice identifying songs. Each song has mann (male) and dame (female) voice versions, plus 'med tekst' (with lyrics) and 'la la la' (without lyrics) variants.",
+      "songs": [
+        {
+          "id": "javielsker",
+          "title": "Ja, vi elsker dette landet",
+          "sentences": ["Ja, vi elsker dette landet som det stiger frem", "furet, værbitt over vannet, med de tusen hjem.", "Elsker, elsker det og tenker på vår far og mor", "og den saganatt som senker drømme på vår jord.", "Og den saganatt som senker, senker drømme på vår jord."],
+          "timecodes": {
+            "mann": [[0.0, 9.1], [9.2, 18.2], [18.3, 27.8], [27.9, 37.0], [37.1, 48.2]],
+            "dame": [[0.9, 12.9], [13.0, 24.2], [24.3, 34.9], [35.0, 47.0], [47.1, 60.3]]
+          },
+          "videoUrls": {
+            "tekst_mann": "https://player.vimeo.com/external/352689832.sd.mp4?s=cafa2d9c60fb36f9158e37d24ab53b9a8078278f&profile_id=165",
+            "tekst_dame": "https://player.vimeo.com/external/353305408.sd.mp4?s=1b4fd88d3f6f7c0cac52e30d6d5a282d32ceff30&profile_id=165",
+            "lalala_mann": "https://player.vimeo.com/external/356614490.sd.mp4?s=a1baab0a89a518b0e40ed27d29bf3ae79aa07c6d&profile_id=165",
+            "lalala_dame": "https://player.vimeo.com/external/356639560.sd.mp4?s=4e94f08a443d0f20b6f081e68c2da781d95781f9&profile_id=164"
+          }
+        },
+        {
+          "id": "jegersaaglad",
+          "title": "Jeg er så glad hver julekveld",
+          "sentences": ["Jeg er så glad hver julekveld,", "for da ble Jesus født;", "da lyste stjernen som en sol", "og engler sang så søtt."],
+          "timecodes": {
+            "mann": [[0.0, 4.7], [4.8, 9.8], [9.9, 15.2], [15.3, 20.2]],
+            "dame": [[1.3, 7.2], [7.3, 13.0], [13.1, 19.6], [19.7, 26.5]]
+          },
+          "videoUrls": {
+            "tekst_mann": "https://player.vimeo.com/external/352689868.sd.mp4?s=8ac6203f939e5c4458aa00d0dda89265863e910d&profile_id=164",
+            "tekst_dame": "https://player.vimeo.com/external/353305422.sd.mp4?s=d23e5cfe123caf107b2ae6f13bb99354774bbd32&profile_id=165",
+            "lalala_mann": "https://player.vimeo.com/external/356617444.sd.mp4?s=e593ee83c453ca6d326e34f64ae752541e9608c2&profile_id=165",
+            "lalala_dame": "https://player.vimeo.com/external/356639597.sd.mp4?s=716b0c7b97e4d302171ca8828e766193d4de8687&profile_id=164"
+          }
+        },
+        {
+          "id": "mikkelrev",
+          "title": "Mikkel Rev",
+          "sentences": ["Mikkel Rev satt og skrev, på ei lita tavle.", "Tavla sprakk. Mikkel skvatt oppi pappas flosshatt", "Mikkel Rev skrev et brev, sendte det til månen.", "Månen sa: Hipp hurra! Sendte det til Afrika.", "Afrika, Afrika ville ikke ha det.", "Afrika, Afrika sendte det tilbake", "med ei bløtekake."],
+          "timecodes": {
+            "mann": [[0.0, 6.0], [6.1, 12.5], [12.6, 19.5], [19.6, 26], [26.1, 33], [33.1, 39], [39.1, 45]],
+            "dame": [[1.0, 10.2], [10.3, 20.1], [20.2, 29.5], [29.6, 39.1], [39.2, 47.7], [47.8, 56.7], [56.8, 62.6]]
+          },
+          "videoUrls": {
+            "tekst_mann": "https://player.vimeo.com/external/352689976.sd.mp4?s=fc479bf916a0ff6b88e4613eae8b92cc4f862515&profile_id=165",
+            "tekst_dame": "https://player.vimeo.com/external/353305489.sd.mp4?s=b3a1821d3e52dd25e48dfe744b9e583e37cdf71b&profile_id=165",
+            "lalala_mann": "https://player.vimeo.com/external/356614695.sd.mp4?s=16ac8a585ebbc9d40df3c087bfed052f6777adcf&profile_id=165",
+            "lalala_dame": "https://player.vimeo.com/external/356640544.sd.mp4?s=e21f17282e3c6a2873c994a25dde8e4f1ba3194d&profile_id=165"
+          }
+        },
+        {
+          "id": "perspelmann",
+          "title": "Per Spelmann",
+          "sentences": ["Per Spelmann, han hadde ei einaste ku.", "Per Spelmann, han hadde ei einaste ku.", "Han bytte bort kua, fekk fela igjen.", "Han bytte bort kua, fekk fela igjen.", "\"Du gamle, gode fiolin, du fiolin, du fela mi!\""],
+          "timecodes": {
+            "mann": [[0.0, 5.2], [5.3, 9.9], [10.0, 15.5], [15.6, 20.1], [20.2, 29.0]],
+            "dame": [[0.9, 6.8], [6.9, 12.9], [13.0, 18.6], [18.7, 24.3], [24.4, 35.0]]
+          },
+          "videoUrls": {
+            "tekst_mann": "https://player.vimeo.com/external/352690017.sd.mp4?s=a69f502fc54d98e34c57b2fdba9f7c4c47f1de01&profile_id=164",
+            "tekst_dame": "https://player.vimeo.com/external/353305503.sd.mp4?s=702f11f43ea1a2adf5e83274dd24cc1af5650441&profile_id=165",
+            "lalala_mann": "https://player.vimeo.com/external/356614741.sd.mp4?s=e8b931791f680e07fc50af953f328248f1a7a288&profile_id=165",
+            "lalala_dame": "https://player.vimeo.com/external/356640855.sd.mp4?s=56e5d2758e4336b5e1da27086583999cef2912e2&profile_id=165"
+          }
+        },
+        {
+          "id": "lillelam",
+          "title": "Bæ bæ lille lam",
+          "sentences": ["Bæ, bæ, lille lam, har du noe ull?", "Ja, ja, kjære barn, jeg har kroppen full.", "Søndagsklær til far, og søndagsklær til mor,", "og to par strømper til bitte lille bror."],
+          "timecodes": {
+            "mann": [[0.0, 5.4], [5.5, 11.4], [11.5, 16.9], [17.0, 24.8]],
+            "dame": [[0.9, 8.2], [8.3, 15.8], [15.9, 22.8], [22.9, 32.1]]
+          },
+          "videoUrls": {
+            "tekst_mann": "https://player.vimeo.com/external/352689764.sd.mp4?s=10c107d063b599b0786d730be7b27f7bbf7869c8&profile_id=165",
+            "tekst_dame": "https://player.vimeo.com/external/353305383.sd.mp4?s=7c89a999e8f61fc4e971c1390202cec1b41d28d8&profile_id=165",
+            "lalala_mann": "https://player.vimeo.com/external/356614403.sd.mp4?s=e06512ebe152a16661d7f430864b212568b6de07&profile_id=165",
+            "lalala_dame": "https://player.vimeo.com/external/356638798.sd.mp4?s=e34b7c4db9feaf1890218b9e16865751eab22d08&profile_id=165"
+          }
+        },
+        {
+          "id": "blaaballong",
+          "title": "Jeg vil ha en blå ballong",
+          "sentences": ["Jeg vil ha en blå ballong,", "en sånn der en fin ballong.", "En med hatt og nese på,", "og den skal være blå.", "Den skal være flott og dyr,", "nesten som et eventyr,", "flyve som et riktig fly", "og stige høyt i sky."],
+          "timecodes": {
+            "mann": [[0.0, 4.0], [4.1, 8.3], [8.4, 12.2], [12.3, 15.7], [15.8, 20.0], [20.1, 24.1], [24.2, 28.0], [28.1, 31.7]],
+            "dame": [[0.9, 4.8], [4.9, 9.2], [9.3, 12.8], [12.9, 16.7], [16.8, 20.4], [20.5, 24.4], [24.5, 28.0], [28.1, 32.0]]
+          },
+          "videoUrls": {
+            "tekst_mann": "https://player.vimeo.com/external/352689796.sd.mp4?s=28ff1e3ae449160c870afa3fe0598026f98426d8&profile_id=165",
+            "tekst_dame": "https://player.vimeo.com/external/353305397.sd.mp4?s=6d4989a8c38fac6d127fec8846c826b147971e13&profile_id=165",
+            "lalala_mann": "https://player.vimeo.com/external/356614445.sd.mp4?s=58941a653ed618e62cfc7ca70164d3fa9821e3ff&profile_id=165",
+            "lalala_dame": "https://player.vimeo.com/external/356638838.sd.mp4?s=48cbb0590a5d61d9946085d573fa752a1e7a49a2&profile_id=164"
+          }
+        },
+        {
+          "id": "kjaerlighetsvisa",
+          "title": "Kjærlighetsvisa",
+          "sentences": ["Når sommardagen ligg utover landet", "og du og æ har funne oss ei strand", "og fire kalde pils ligg nedi vannet", "og vi e brun og fin og hand i hand,", "når vi har prata om ei bok vi lika", "og alt e bra og ikkje te å tru:", "Ingen e så god som du, da.", "Ingen e så god som du."],
+          "timecodes": {
+            "mann": [[0.0, 5.0], [5.1, 10.6], [10.7, 15.8], [15.9, 20.7], [20.8, 26.3], [26.4, 31.8], [31.9, 37.0], [37.1, 42.2]],
+            "dame": [[1.3, 7.7], [7.8, 13.7], [13.8, 20.1], [20.2, 26.1], [26.2, 32.8], [32.9, 39.1], [39.2, 45.7], [45.8, 52.5]]
+          },
+          "videoUrls": {
+            "tekst_mann": "https://player.vimeo.com/external/352689895.sd.mp4?s=bac235717244a5d4873609d15f3cfda661eb2a1e&profile_id=164",
+            "tekst_dame": "https://player.vimeo.com/external/353305441.sd.mp4?s=e1d4d3176b49f2c977ee3ff3503c57b2df555e7b&profile_id=165",
+            "lalala_mann": "https://player.vimeo.com/external/356614592.sd.mp4?s=6895eae8c1acfac7ea7f2b2703872bbc4fe2ac9b&profile_id=165",
+            "lalala_dame": "https://player.vimeo.com/external/356640367.sd.mp4?s=9b113156b32ac9ce9d13fad1fcc5fc6ad799907b&profile_id=164"
+          }
+        },
+        {
+          "id": "lisagikktilskolen",
+          "title": "Lisa gikk til skolen",
+          "sentences": ["Lisa gikk til skolen. Tripp, tripp, tripp det sa.", "I den nye kjolen trippet hun så glad.", "Per, han stod for presten. Spør om han var kar!", "I den nye vesten lignet han på far.", "Nå er Per og Lisa gamle må du tro.", "Men den vesle visa synger begge to."],
+          "timecodes": {
+            "mann": [[0.0, 5.8], [5.9, 11.5], [11.6, 17.8], [17.9, 24.0], [24.1, 31.1], [31.2, 38.2]],
+            "dame": [[1.0, 8.0], [8.1, 15.8], [15.9, 23.4], [23.5, 30.9], [31.0, 38.6], [38.7, 46.6]]
+          },
+          "videoUrls": {
+            "tekst_mann": "https://player.vimeo.com/external/352689923.sd.mp4?s=21bf8a76c8c22753178e718c8fb24661bbcd4acf&profile_id=164",
+            "tekst_dame": "https://player.vimeo.com/external/353319855.sd.mp4?s=f5c5f3fc4c43b4d2303b5c145c79e2e2f3c859a7&profile_id=165",
+            "lalala_mann": "https://player.vimeo.com/external/356614635.sd.mp4?s=8a66dd5a4cb409dea8bf0655b5f4093ac9e9c1b8&profile_id=164",
+            "lalala_dame": "https://player.vimeo.com/external/356640410.sd.mp4?s=be32e310a5b6bd0bc3e2c589dd6b60d4b5cc9567&profile_id=164"
+          }
+        },
+        {
+          "id": "lysogvarme",
+          "title": "Lys og varme",
+          "sentences": ["Når mørke no har sænka sæ,", "går æ stilt igjennom rommet.", "Å følelsan dæm slit i mæ.", "Ka vil framtida gi?", "Å den arven vi har gitt dæ,", "kainn pair tung å ta me sæ.", "Vil du spørr oss, vil du last oss?", "Vil du kall det førr et svik?", "Sola som gikk ned i kveld, ho ska skin førr dæ, min kjære.", "Å føglan som e fri, dæm ska vis vei å aillt ska bli", "myttji lys å myttji varme.", "Tru å håp, det kan du få med.", "Mange tåra, tunge stunde, e æ redd førr at det bli."],
+          "timecodes": {
+            "mann": [[0.0, 3.9], [4.0, 8.0], [8.1, 12.5], [12.6, 16.0], [16.1, 21.0], [21.1, 25.1], [25.2, 29.9], [30.0, 34.3], [34.4, 43.3], [43.4, 51.7], [51.8, 56.1], [56.2, 60.0], [60.1, 71.6]],
+            "dame": [[1.0, 5.6], [5.7, 10.1], [10.2, 14.3], [14.4, 19.3], [19.4, 23.2], [23.3, 27.2], [27.3, 31.5], [31.6, 37.8], [37.9, 46.6], [46.7, 54.6], [54.7, 59.0], [59.1, 63.0], [63.1, 73.7]]
+          },
+          "videoUrls": {
+            "tekst_mann": "https://player.vimeo.com/external/352689944.sd.mp4?s=09e5dd7c268e71d4930ab8c30c0375ba7e1981b7&profile_id=165",
+            "tekst_dame": "https://player.vimeo.com/external/353305476.sd.mp4?s=92f8cd1f3ed53a111576f22f29d0f7355edab164&profile_id=165",
+            "lalala_mann": "https://player.vimeo.com/external/356614661.sd.mp4?s=cb5656e495fddb4b956895109cf0de257f2bf0b1&profile_id=165",
+            "lalala_dame": "https://player.vimeo.com/external/356640518.sd.mp4?s=7fb5559c3a5a2c8241c66642ea32d1c221e99f29&profile_id=164"
+          }
+        }
+      ]
+    },
+    "instrumenter": {
+      "description": "Instruments module - users identify which instrument is playing a song. 4 songs x 4 instruments = 16 video combinations.",
+      "songs": ["Ja, vi elsker dette landet", "Jeg er så glad hver julekveld", "Mikkel Rev", "Per Spelmann"],
+      "songIds": ["javielsker", "jegersaaglad", "mikkelrev", "perspelmann"],
+      "instruments": ["fiolin", "gitar", "piano", "trompet"],
+      "videoUrls": {
+        "javielsker_fiolin": "https://player.vimeo.com/external/359034629.sd.mp4?s=856b06289e6e8def986266bf5cf20d79f1d72098&profile_id=164",
+        "jegersaaglad_fiolin": "https://player.vimeo.com/external/359035129.sd.mp4?s=efee759a52752e62fde8c13d7830648c17adca94&profile_id=165",
+        "mikkelrev_fiolin": "https://player.vimeo.com/external/359038228.sd.mp4?s=576f152216759acfae839d50713df2b7fa6dc151&profile_id=165",
+        "perspelmann_fiolin": "https://player.vimeo.com/external/359040738.sd.mp4?s=07a4bd52d7e8100f2285a800b2c10ba5dd9c26ab&profile_id=165",
+        "javielsker_gitar": "https://player.vimeo.com/external/359034663.sd.mp4?s=1b8dda4106f5300ed65bbc721f2c1cf70d381bfe&profile_id=165",
+        "jegersaaglad_gitar": "https://player.vimeo.com/external/359035157.sd.mp4?s=d0d0087930ae0c6836f773af4d646b267318857c&profile_id=164",
+        "mikkelrev_gitar": "https://player.vimeo.com/external/359038277.sd.mp4?s=aad6e63d9b3bdf69c549bbf02be2f2d18c5a34e5&profile_id=165",
+        "perspelmann_gitar": "https://player.vimeo.com/external/359040761.sd.mp4?s=9ae4d8158e505817554b6493ab133968209da5a1&profile_id=165",
+        "javielsker_piano": "https://player.vimeo.com/external/359034703.sd.mp4?s=9e50c6c705f8ddbf68e9cd3b60deceeecd17b71e&profile_id=164",
+        "jegersaaglad_piano": "https://player.vimeo.com/external/359035189.sd.mp4?s=cc820f8dccfb3ed8151217ee0359918a27248b79&profile_id=164",
+        "mikkelrev_piano": "https://player.vimeo.com/external/359038301.sd.mp4?s=63e77574ff1a1f927f63f27d59e0261299cb1fb6&profile_id=165",
+        "perspelmann_piano": "https://player.vimeo.com/external/359040788.sd.mp4?s=af83f6f48ed6b6de69ed3f2725bf93efb3cf0262&profile_id=164",
+        "javielsker_trompet": "https://player.vimeo.com/external/359034745.sd.mp4?s=73755dfd020a41146952fc72d4944fca346474e9&profile_id=165",
+        "jegersaaglad_trompet": "https://player.vimeo.com/external/359035227.sd.mp4?s=d770b7f254bb6a22c3dd08dfc9a012d362d8bbcb&profile_id=164",
+        "mikkelrev_trompet": "https://player.vimeo.com/external/359038335.sd.mp4?s=3828059ce0cb2d82bb678c400263fa4207ebaa2f&profile_id=164",
+        "perspelmann_trompet": "https://player.vimeo.com/external/359040809.sd.mp4?s=da127c10ddf41af4790703368557e9808901f1df&profile_id=164"
+      }
+    }
+  },
+  "_rawFiles": {
+    "tekster_js": "data/tekster_raw.js",
+    "tekster_html": "data/tekster_raw.html",
+    "sanger_js": "data/sanger_raw.js",
+    "sanger_html": "data/sanger_raw.html",
+    "instrumenter_js": "data/instrumenter_raw.js",
+    "instrumenter_html": "data/instrumenter_raw.html"
+  }
+}

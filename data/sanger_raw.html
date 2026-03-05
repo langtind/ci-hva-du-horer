@@ -1,0 +1,79 @@
+<style>
+	#navSangerContainer{
+		position: absolute;
+		width: 500px;
+		background-color: var(--cicolor-one);
+		height: 120px;
+		margin-top: 5px;
+		margin-left: 470px;
+	}
+	
+	/*knappene i sanger menyen*/
+	.navSanger{
+		width: 48%;
+		background-color: #eaeaea;
+		text-align: center;
+		margin-bottom: 2px;
+		cursor: pointer;
+		padding-bottom: 2px;
+	}
+	
+	.navSangerLeft{
+		float:left;
+	}
+	.navSangerRight{
+		float:right;
+	}
+	
+		/*check bokser for hver enkelt miljolyd*/
+	.s_check{
+		float: right;
+		vertical-align: middle;
+	}
+	
+	/*check bokser for hver enkelt miljolyd*/
+	.sang_check{
+		float: right;
+		vertical-align: middle;
+	}
+	
+</style>
+
+<div class="oppgavefaner" >
+			
+			<button id="btnSanger" tabindex="0" class="faneAktiv" >Sanger</button>
+			<button id="btnInstrumenter" tabindex="0" class="faneInaktiv" onclick="runInstrumenterBtn()">Instrumenter</button><br>
+
+		</div>
+
+<div class="settingsRadioButtons" >
+			
+	<form id="radioModus">
+ 		<input tabindex="0" style="margin-bottom: 10px;" id="lytte" type="radio" onClick ="CI_musikk_sang_velgModus()" name="modus" value="lytte" checked><label class="radiolabel" for="lytte">Lytte</label><br>
+  		<input tabindex="0" id="ove" type="radio" onClick ="CI_musikk_sang_velgModus()" name="modus" value="ove"><label class="radiolabel" for="ove">Øve</label><br>
+	   </form>
+	
+		<form id="radioKjonn">
+ 		 <input tabindex="0" style="margin-bottom: 10px;" id="mann" type="radio" onClick ="CI_framework_velgStemme(); CI_musikk_runMyStemmeValg();" name="stemme" value="mann" checked><label class="radiolabel" for="mann">Mannstemme</label><br>	
+ 		 <input tabindex="0" id="dame" type="radio" onClick ="CI_framework_velgStemme(); CI_musikk_runMyStemmeValg();" name="stemme" value="dame"><label class="radiolabel" for="dame">Damestemme</label>
+		</form>
+	
+		<form id="radioType">
+ 		 <input tabindex="0" style="margin-bottom: 10px;" id="tekst" type="radio" onClick ="CI_musikk_sang_velgType()" name="sangModus" value="tekst" checked><label class="radiolabel" for="tekst">Sunget med tekst</label><br>
+  		<input tabindex="0" id="lalala" type="radio" onClick ="CI_musikk_sang_velgType()" name="sangModus" value="lala"><label class="radiolabel" for="lalala">Sunget la la la</label><br>
+	   </form>
+</div>
+
+<div id="navSangerContainer">
+	<div id="IDjavielsker" class="navSanger navSangerLeft" onClick="CI_musikk_sang_velgSang('javielsker',1);">Ja, vi elsker dette landet<input class="sang_check" type="checkbox" name="nameSang" value="0" onClick ="CI_sanger_nullstill()" ></div>
+	<div id="IDjegersaaglad" class="navSanger navSangerRight" onClick="CI_musikk_sang_velgSang('jegersaaglad',2);">Jeg er så glad hver julekveld<input class="sang_check" type="checkbox" name="nameSang" value="0" onClick ="CI_sanger_nullstill()" ></div>
+	<div id="IDmikkelrev" class="navSanger navSangerLeft" onClick="CI_musikk_sang_velgSang('mikkelrev',3);">Mikkel Rev<input class="sang_check" type="checkbox" name="nameSang" value="0" onClick ="CI_sanger_nullstill()" ></div>
+	<div id="IDperspelmann" class="navSanger navSangerRight" onClick="CI_musikk_sang_velgSang('perspelmann',4);">Per Spelmann<input class="sang_check" type="checkbox" name="nameSang" value="0" onClick ="CI_sanger_nullstill()" ></div>
+	<div id="IDlillelam" class="navSanger navSangerLeft" onClick="CI_musikk_sang_velgSang('lillelam',5);">Bæ bæ lille lam<input class="sang_check" type="checkbox" name="nameSang" value="0" onClick ="CI_sanger_nullstill()" ></div>
+	<div id="IDblaaballong" class="navSanger navSangerRight" onClick="CI_musikk_sang_velgSang('blaaballong',6);">Jeg vil ha en blå ballong<input class="sang_check" type="checkbox" name="nameSang" value="0" onClick ="CI_sanger_nullstill()" ></div>
+	<div id="IDkjaerlighetsvisa" class="navSanger navSangerLeft" onClick="CI_musikk_sang_velgSang('kjaerlighetsvisa',7);">Kjærlighetsvisa<input class="sang_check" type="checkbox" name="nameSang" value="0" onClick ="CI_sanger_nullstill()" ></div>
+	<div id="IDlisagikktilskolen" class="navSanger navSangerRight" onClick="CI_musikk_sang_velgSang('lisagikktilskolen',8);">Lisa gikk til skolen<input class="sang_check" type="checkbox" name="nameSang" value="0" onClick ="CI_sanger_nullstill()" ></div>
+	<div id="IDlysogvarme" class="navSanger navSangerLeft" onClick="CI_musikk_sang_velgSang('lysogvarme',9)">Lys og varme<input class="sang_check" type="checkbox" name="nameSang" value="0" onClick ="CI_sanger_nullstill()" ></div>
+</div>
+
+

@@ -1,0 +1,425 @@
+<style>
+	
+
+	
+
+	#damestemmeNavTeksterContainer_1{
+		position: absolute;
+		display: block;
+		width: 700px;
+		height: 70px;
+		margin-top: -90px;
+		margin-left: 100px;
+		font-size: 20px;
+		color:white;
+		background-color: transparent;	
+		z-index: 300; !important;
+	}
+	
+	#damestemmeNavTeksterContainer_2_1{
+		position: absolute;
+		display: block;
+		width: 700px;
+		height: 50px;
+		margin-top: -60px;
+		margin-left: 240px;
+		font-size: 20px;
+		color:white;
+		background-color: transparent;	
+		visibility: hidden;
+		z-index: 300; !important;
+	}
+	
+	#damestemmeNavTeksterContainer_2_2{
+		position: absolute;
+		display: block;
+		width: 700px;
+		height: 50px;
+		margin-top: -60px;
+		margin-left: 310px;
+		font-size: 20px;
+		color:white;
+		background-color: transparent;	
+		visibility: hidden;
+		z-index: 300; !important;
+	}
+	
+	#mannsstemmeNavTeksterContainer_1{
+		position: absolute;
+		display: block;
+		width: 700px;
+		height: 50px;
+		margin-top: -90px;
+		margin-left: 220px;
+		font-size: 20px;
+		color:white;
+		background-color: transparent;	
+		visibility: hidden;
+		z-index: 300; !important;
+	}
+	
+	
+	
+	.NavNivaa1, .NavNivaa2{
+		display:inline-block;
+		cursor: pointer;
+		font-size: 16px;
+		border-radius: 5px;
+		padding: 3px;
+		color:white;
+		background-color: transparent;
+	}
+	.NavSubdir{
+		font-size: 18px;
+		vertical-align:text-top;
+		margin-right: 5px;
+		
+	}
+	
+	/*stripe med thumbs*/
+	#NavThumbContainer{
+		position: absolute;
+		display: block;
+		width: 99.3%;
+		height: 130px;
+		margin-top: 0px;
+		margin-left: 0px;
+		border-radius: 0px;
+		padding-top: 2px;
+		border-top: 1px solid var(--cicolor-one);
+		/*border-bottom: 1px solid var(--cicolor-one);*/
+		/*background-color: var(--cicolor-one);*/
+		z-index: 0;
+		
+	}
+	.figcap{
+		font-size: 13px;
+		color:white;
+	}
+	
+	
+	/*figure tag med img og tekst*/
+	.thumbs{
+		margin-top:  0px;
+		margin-left: 0px;
+		margin-right: 5px;
+		max-width: 110px;
+		/*padding: 1px;*/
+		float: left;
+		display: block;
+		cursor: pointer
+	}
+	
+	.thumbContainer{
+		visibility: hidden;
+		position: absolute;
+	}
+	
+	
+	 </style>
+
+
+
+	<div class="oppgavefaner" >
+		<button id="tekstFane_1" tabindex="0" class="faneAktiv" onclick="CI_tekster_settFane('damestemme');">Damestemme</button>
+		<button id="tekstFane_2" tabindex="0" class="faneInaktiv" onclick="CI_tekster_settFane('mannsstemme');">Mannestemme</button>
+	    <button id="tekstFane_3" tabindex="0" class="faneInaktiv" onclick="CI_tekster_settFane('barnestemme');">Barnestemme</button>
+	</div>
+
+
+<div id="damestemmeNavTeksterContainer_1"><i class="NavSubdir material-icons">
+subdirectory_arrow_right</i><input type="button" id="dNav_1_Fortellinger" class="NavNivaa1" value="Fortellinger" onClick="CI_tekster_NavSwitchColors(this); CI_tekster_showThumbs('damestemmeFortellinger');"> | <input type="button" id="dNav_1_Vitser" class="NavNivaa1" value="Vitser" onClick="CI_tekster_NavSwitchColors(this); CI_tekster_showThumbs('damestemmeVitser');"> | <input type="button" id="dNav_1_Saktekster" class="NavNivaa1" value="Saktekster" onClick="CI_tekster_NavSwitchColors(this); CI_tekster_showThumbs('damestemmeSaktekster');"> | <input type="button" id="dNav_1_Dialoger" class="NavNivaa1" value="Dialoger" onClick="CI_tekster_NavSwitchColors(this); CI_tekster_showThumbs('damestemmeDialoger');"> | <input type="button" id="dNav_1_Dikt" class="NavNivaa1" Value="Dikt" onClick="CI_tekster_NavSwitchColors(this); CI_tekster_showThumbs('damestemmeDikt');"></div>
+
+<div id="damestemmeNavTeksterContainer_2_1"><i class="NavSubdir material-icons">
+subdirectory_arrow_right</i><input type="button" id="dNav_2_1_Oslo" class="NavNivaa2" value ="Oslo" onClick="CI_tekster_NavSwitchColors2(this); CI_tekster_showThumbs('damestemmeVitserOslo'); "> | <input type="button" id="dNav_2_1_Vestlandet" class="NavNivaa2" value="Vestlandet" onClick="CI_tekster_NavSwitchColors2(this); CI_tekster_showThumbs('damestemmeVitserVestlandet'); "> | <input type="button" id="dNav_2_1_NordNorge" class="NavNivaa2" value="Nord-Norge" onClick="CI_tekster_NavSwitchColors2(this); CI_tekster_showThumbs('damestemmeVitserNordNorge');"> | <input type="button" id="dNav_2_1_Stavanger" class="NavNivaa2" value="Stavanger og sørlandet" onClick="CI_tekster_NavSwitchColors2(this); CI_tekster_showThumbs('damestemmeVitserStavangerSoerlandet'); "></div>
+
+<div id="damestemmeNavTeksterContainer_2_2"><i class="NavSubdir material-icons">
+subdirectory_arrow_right</i><input type="button" id="dNav_2_2_Bokmaal" value="Bokmål" class="NavNivaa2" onClick="CI_tekster_NavSwitchColors2(this); CI_tekster_showThumbs('damestemmeSakteksterBokmaal'); "> | <input type="button" id="dNav_2_2_Nynorsk" class="NavNivaa2" value="Nynorsk" onClick="CI_tekster_NavSwitchColors2(this); CI_tekster_showThumbs('damestemmeSakteksterNynorsk'); "> | <input type="button" id="dNav_2_2_Forskjellig" class="NavNivaa2" value="Forskjellige dialekter" onClick="CI_tekster_NavSwitchColors2(this); CI_tekster_showThumbs('damestemmeSakteksterForskjelligeDialekter');"></div>
+
+<div id="mannsstemmeNavTeksterContainer_1"><i class="NavSubdir material-icons">
+subdirectory_arrow_right</i><input type="button" id="mNav_1_Fortellinger" class="NavNivaa1" value="Fortellinger" onClick="CI_tekster_NavSwitchColors(this); CI_tekster_showThumbs('mannsstemmeFortellinger');"> | <input type="button" id="mNav_1_Vitser" class="NavNivaa1" value="Vitser" onClick="CI_tekster_NavSwitchColors(this); CI_tekster_showThumbs('mannsstemmeVitser');"> | <input type="button" id="mNav_1_Saktekster" class="NavNivaa1" value="Saktekster" onClick="CI_tekster_NavSwitchColors(this); CI_tekster_showThumbs('mannsstemmeSaktekster');"> </div>
+
+
+<div id="NavThumbContainer">
+	
+<div id="damestemmeFortellinger" class="thumbContainer">	
+<figure class="thumbs" onClick="CI_tekster_setIneractiveTxt('gullhaar'); CI_tekster_thumb_switchColors(this);">
+  <img src="06-tekster/thumbs/dame10.jpg" alt="Klikk for å starte Gullhår">
+	<figcaption class="figcap"><strong>"Gullhår"</strong><br>Eventyr<br>(bokmål)</figcaption>
+</figure>
+	<figure class="thumbs" onClick="CI_tekster_setIneractiveTxt('ulveslaget'); CI_tekster_thumb_switchColors(this);">
+  <img src="06-tekster/thumbs/dame11.jpg" alt="Klikk for å starte Ulveslaget">
+	<figcaption class="figcap"><strong>"Ulveslaget"</strong><br>Novelle (Utdrag)<br>(bokmål)</figcaption>
+</figure>
+		<figure class="thumbs" onClick="CI_tekster_setIneractiveTxt('pannekaka'); CI_tekster_thumb_switchColors(this);">
+  <img src="06-tekster/thumbs/dame9.jpg" alt="Klikk for å starte Ulveslaget">
+	<figcaption class="figcap"><strong>"Pannekaka"</strong><br>Eventyr<br>(Nynorsk)</figcaption>
+</figure>
+	</div>
+	
+
+<div id="damestemmeVitserOslo" class="thumbContainer">	
+	<figure class="thumbs" onClick="CI_tekster_setIneractiveTxt('hardugulroetter'); CI_tekster_thumb_switchColors(this);">
+  <img src="06-tekster/thumbs/dame4.jpg" alt="Klikk for å starte Har du gulrøtter">
+	<figcaption class="figcap"><strong>"Har du gulrøtter"</strong></figcaption>
+</figure>
+	<figure class="thumbs" onClick="CI_tekster_setIneractiveTxt('boennhoerelse'); CI_tekster_thumb_switchColors(this);">
+  <img src="06-tekster/thumbs/dame4.jpg" alt="Klikk for å starte Bønnhørelse">
+	<figcaption class="figcap"><strong>"Bønnhørelse"</strong></figcaption>
+</figure>
+		<figure class="thumbs" onClick="CI_tekster_setIneractiveTxt('flinkforretningsmann'); CI_tekster_thumb_switchColors(this);">
+  <img src="06-tekster/thumbs/dame4.jpg" alt="Klikk for å starte Flink forretningsmann">
+	<figcaption class="figcap"><strong>"Flink forretningsmann"</strong></figcaption>
+</figure>
+	</div>
+	
+<div id="damestemmeVitserVestlandet" class="thumbContainer">	
+	<figure class="thumbs" onClick="CI_tekster_setIneractiveTxt('vandrepokal'); CI_tekster_thumb_switchColors(this);">
+  <img src="06-tekster/thumbs/dame9.jpg" alt="Klikk for å starte Vandrepokal">
+	<figcaption class="figcap"><strong>"Vandrepokal"</strong></figcaption>
+</figure>
+	<figure class="thumbs" onClick="CI_tekster_setIneractiveTxt('fotballkamp'); CI_tekster_thumb_switchColors(this);">
+  <img src="06-tekster/thumbs/dame9.jpg" alt="Klikk for å starte Fotballkamp">
+	<figcaption class="figcap"><strong>"Fotballkamp"</strong></figcaption>
+</figure>
+	<figure class="thumbs" onClick="CI_tekster_setIneractiveTxt('psykologar'); CI_tekster_thumb_switchColors(this);">
+  <img src="06-tekster/thumbs/dame9.jpg" alt="Klikk for å starte Psykologar">
+	<figcaption class="figcap"><strong>"Psykologar"</strong></figcaption>
+</figure>
+	<figure class="thumbs" onClick="CI_tekster_setIneractiveTxt('legevitenskapen'); CI_tekster_thumb_switchColors(this);">
+  <img src="06-tekster/thumbs/dame9.jpg" alt="Klikk for å starte Den legevitenskapen">
+	<figcaption class="figcap"><strong>"Den legeviteskapen"</strong></figcaption>
+</figure>
+	<figure class="thumbs" onClick="CI_tekster_setIneractiveTxt('ukjentsoldat'); CI_tekster_thumb_switchColors(this);">
+  <img src="06-tekster/thumbs/dame9.jpg" alt="Klikk for å starte Ukjent soldat">
+	<figcaption class="figcap"><strong>"Ukjent soldat"</strong></figcaption>
+</figure>
+	<figure class="thumbs" onClick="CI_tekster_setIneractiveTxt('heidertilavdoede'); CI_tekster_thumb_switchColors(this);">
+  <img src="06-tekster/thumbs/dame9.jpg" alt="Klikk for å starte Heider til avdøde">
+	<figcaption class="figcap"><strong>"Heider til avdøde"</strong></figcaption>
+</figure>
+	</div>	
+	
+	<div id="damestemmeVitserNordNorge" class="thumbContainer">	
+	<figure class="thumbs" onClick="CI_tekster_setIneractiveTxt('svoemmeren'); CI_tekster_thumb_switchColors(this);">
+  <img src="06-tekster/thumbs/dame5.jpg" alt="Klikk for å starte Vandrepokal">
+	<figcaption class="figcap"><strong>"Svømmeren"</strong><br>(Nordland)</figcaption>
+</figure>
+	<figure class="thumbs" onClick="CI_tekster_setIneractiveTxt('aftenboenn'); CI_tekster_thumb_switchColors(this);">
+  <img src="06-tekster/thumbs/dame1.jpg" alt="Klikk for å starte Fotballkamp">
+	<figcaption class="figcap"><strong>"Aftenbønn"</strong><br>(Tromsø)</figcaption>
+</figure>
+	<figure class="thumbs" onClick="CI_tekster_setIneractiveTxt('oljedebatten'); CI_tekster_thumb_switchColors(this);">
+  <img src="06-tekster/thumbs/dame1.jpg" alt="Klikk for å starte Psykologar">
+	<figcaption class="figcap"><strong>"Oljedebatten"</strong><br>(Tromsø)</figcaption>
+</figure>
+	<figure class="thumbs" onClick="CI_tekster_setIneractiveTxt('pensjonisttilvaerelsen'); CI_tekster_thumb_switchColors(this);">
+  <img src="06-tekster/thumbs/dame1.jpg" alt="Klikk for å starte Den legevitenskapen">
+	<figcaption class="figcap"><strong>"Pensjonist - tilværelsen"</strong><br>(Tromsø)</figcaption>
+</figure>
+	<figure class="thumbs" onClick="CI_tekster_setIneractiveTxt('tomatene'); CI_tekster_thumb_switchColors(this);">
+  <img src="06-tekster/thumbs/dame1.jpg" alt="Klikk for å starte Ukjent soldat">
+	<figcaption class="figcap"><strong>"Tomatene"</strong><br>(Tromsø)</figcaption>
+</figure>
+	<figure class="thumbs" onClick="CI_tekster_setIneractiveTxt('elgjakt'); CI_tekster_thumb_switchColors(this);">
+  <img src="06-tekster/thumbs/dame7.jpg" alt="Klikk for å starte Heider til avdøde">
+	<figcaption class="figcap"><strong>"Elgjakt"</strong><br>(Helgeland)</figcaption>			
+</figure>
+	<figure class="thumbs" onClick="CI_tekster_setIneractiveTxt('minbaat'); CI_tekster_thumb_switchColors(this);">
+  <img src="06-tekster/thumbs/dame7.jpg" alt="Klikk for å starte Heider til avdøde">
+	<figcaption class="figcap"><strong>"Min båt"</strong><br>(Helgeland)</figcaption>
+</figure>
+	<figure class="thumbs" onClick="CI_tekster_setIneractiveTxt('utenbedoevelse'); CI_tekster_thumb_switchColors(this);">
+  <img src="06-tekster/thumbs/dame7.jpg" alt="Klikk for å starte Heider til avdøde">
+	<figcaption class="figcap"><strong>"Uten bedøvelse"</strong><br>(Helgeland)</figcaption>
+</figure>
+	</div>
+	
+	<div id="damestemmeVitserStavangerSoerlandet" class="thumbContainer">	
+	<figure class="thumbs" onClick="CI_tekster_setIneractiveTxt('filosofi'); CI_tekster_thumb_switchColors(this);">
+  <img src="06-tekster/thumbs/dame8.jpg" alt="Klikk for å starte Vandrepokal">
+	<figcaption class="figcap"><strong>"Filosofi"</strong><br>(Stavanger)</figcaption>
+</figure>
+	<figure class="thumbs" onClick="CI_tekster_setIneractiveTxt('turistnaeringa'); CI_tekster_thumb_switchColors(this);">
+  <img src="06-tekster/thumbs/dame8.jpg" alt="Klikk for å starte Fotballkamp">
+	<figcaption class="figcap"><strong>"Noe for turistnæringa"</strong><br>(Stavanger)</figcaption>
+</figure>
+	<figure class="thumbs" onClick="CI_tekster_setIneractiveTxt('kjettingen'); CI_tekster_thumb_switchColors(this);">
+  <img src="06-tekster/thumbs/dame6.jpg" alt="Klikk for å starte Psykologar">
+	<figcaption class="figcap"><strong>"Kjettingen"</strong><br>(Sørlandet)</figcaption>
+</figure>
+	<figure class="thumbs" onClick="CI_tekster_setIneractiveTxt('litenbil'); CI_tekster_thumb_switchColors(this);">
+  <img src="06-tekster/thumbs/dame6.jpg" alt="Klikk for å starte Den legevitenskapen">
+	<figcaption class="figcap"><strong>"Liten bil"</strong><br>(Sørlandet)</figcaption>
+</figure>
+	<figure class="thumbs" onClick="CI_tekster_setIneractiveTxt('snoemaaking'); CI_tekster_thumb_switchColors(this);">
+  <img src="06-tekster/thumbs/dame6.jpg" alt="Klikk for å starte Ukjent soldat">
+	<figcaption class="figcap"><strong>"Snømåking"</strong><br>(Sørlandet)</figcaption>
+</figure>
+	<figure class="thumbs" onClick="CI_tekster_setIneractiveTxt('daarligvei'); CI_tekster_thumb_switchColors(this);">
+  <img src="06-tekster/thumbs/dame6.jpg" alt="Klikk for å starte Heider til avdøde">
+	<figcaption class="figcap"><strong>"Dårlig vei"</strong><br>(Sørlandet)</figcaption>			
+</figure>
+	</div>
+		
+		
+<div id="damestemmeSakteksterBokmaal" class="thumbContainer">	
+	<figure class="thumbs" onClick="CI_tekster_setIneractiveTxt('bordercollie'); CI_tekster_thumb_switchColors(this);">
+  <img src="06-tekster/thumbs/dame5.jpg" alt="Klikk for å starte Border collie">
+	<figcaption class="figcap"><strong>"Border Collie"</strong></figcaption>
+</figure>
+	<figure class="thumbs" onClick="CI_tekster_setIneractiveTxt('kunstigoeye'); CI_tekster_thumb_switchColors(this);">
+  <img src="06-tekster/thumbs/dame14.jpg" alt="Klikk for å starte Kunstig øye">
+	<figcaption class="figcap"><strong>"Kunnstig øye"</strong></figcaption>
+</figure>
+	<figure class="thumbs" onClick="CI_tekster_setIneractiveTxt('navleloensgaate'); CI_tekster_thumb_switchColors(this);">
+  <img src="06-tekster/thumbs/dame14.jpg" alt="Klikk for å starte Navleloens gåte">
+	<figcaption class="figcap"><strong>"Navleloens gåte"</strong></figcaption>
+</figure>
+	<figure class="thumbs" onClick="CI_tekster_setIneractiveTxt('sivertsensmith'); CI_tekster_thumb_switchColors(this);">
+  <img src="06-tekster/thumbs/dame15.jpg" alt="Klikk for å starte Sivertsen Smith">
+	<figcaption class="figcap"><strong>"Sivertsen Smith"</strong></figcaption>
+</figure>
+	</div>
+		
+<div id="damestemmeSakteksterNynorsk" class="thumbContainer">	
+	<figure class="thumbs" onClick="CI_tekster_setIneractiveTxt('hund'); CI_tekster_thumb_switchColors(this);">
+  <img src="06-tekster/thumbs/dame9.jpg" alt="Klikk for å starte Hund">
+	<figcaption class="figcap"><strong>"Hund"</strong></figcaption>
+</figure>
+	<figure class="thumbs" onClick="CI_tekster_setIneractiveTxt('atlanterhavsvegen'); CI_tekster_thumb_switchColors(this);">
+  <img src="06-tekster/thumbs/dame3.jpg" alt="Klikk for å starte Atlanterhavsvegen">
+	<figcaption class="figcap"><strong>"Atlanterhavs - vegen"</strong></figcaption>
+</figure>
+	<figure class="thumbs" onClick="CI_tekster_setIneractiveTxt('smaaviltjakt'); CI_tekster_thumb_switchColors(this);">
+  <img src="06-tekster/thumbs/dame9.jpg" alt="Klikk for å starte Småviltjakt heile året">
+	<figcaption class="figcap"><strong>"Småviltjakt heile året"</strong></figcaption>
+</figure>
+		</div>
+
+<div id="damestemmeSakteksterForskjelligeDialekter" class="thumbContainer">	
+	<figure class="thumbs" onClick="CI_tekster_setIneractiveTxt('kristiansund'); CI_tekster_thumb_switchColors(this);">
+  <img src="06-tekster/thumbs/dame13.jpg" alt="Klikk for å starte Kristiansund">
+	<figcaption class="figcap"><strong>"Kristiansund"</strong><br>(Nordmøre)</figcaption>
+</figure>
+<figure class="thumbs" onClick="CI_tekster_setIneractiveTxt('tromsoe'); CI_tekster_thumb_switchColors(this);">
+  <img src="06-tekster/thumbs/dame1.jpg" alt="Klikk for å starte Tromsø">
+	<figcaption class="figcap"><strong>"Tromsø"</strong><br>(Tromsø)</figcaption>
+</figure>
+	<figure class="thumbs" onClick="CI_tekster_setIneractiveTxt('musikkutdannelse'); CI_tekster_thumb_switchColors(this);">
+  <img src="06-tekster/thumbs/dame1.jpg" alt="Klikk for å starte Musikkutdannelse">
+	<figcaption class="figcap"><strong>"Musikk - utdannelse"</strong><br>(Tromsø)</figcaption>
+</figure>
+		<figure class="thumbs" onClick="CI_tekster_setIneractiveTxt('utaafly'); CI_tekster_thumb_switchColors(this);">
+  <img src="06-tekster/thumbs/dame3.jpg" alt="Klikk for å starte Ut å fly">
+	<figcaption class="figcap"><strong>"Ut å fly"</strong><br>(Trøndelag)</figcaption>
+</figure>
+	<figure class="thumbs" onClick="CI_tekster_setIneractiveTxt('kniksen'); CI_tekster_thumb_switchColors(this);">
+  <img src="06-tekster/thumbs/dame12.jpg" alt="Klikk for å starte Kniksen">
+	<figcaption class="figcap"><strong>"Kniksen"</strong><br>(Bergen)</figcaption>
+</figure>
+	<figure class="thumbs" onClick="CI_tekster_setIneractiveTxt('sikkerhetpaafly'); CI_tekster_thumb_switchColors(this);">
+  <img src="06-tekster/thumbs/Fly.jpg" alt="Klikk for å starte Sikkerhet på fly">
+	<figcaption class="figcap"><strong>"Sikkerhet på fly"</strong><br>(bare lyd)</figcaption>
+</figure>
+		</div>
+				
+<div id="damestemmeDialoger" class="thumbContainer">	
+	<figure class="thumbs" onClick="CI_tekster_setIneractiveTxt('uteogtriller'); CI_tekster_thumb_switchColors(this);">
+  <img src="06-tekster/thumbs/dame16.jpg" alt="Klikk for å starte Ute og triller">
+	<figcaption class="figcap"><strong>"Ute og triller"</strong><br>Øst-Norge og Trøndelag)</figcaption>
+</figure>
+	<figure class="thumbs" onClick="CI_tekster_setIneractiveTxt('heimbygd'); CI_tekster_thumb_switchColors(this);">
+  <img src="06-tekster/thumbs/dame17.jpg" alt="Klikk for å starte Heimbygd">
+	<figcaption class="figcap"><strong>"Heimbygd"</strong><br>Hardanger og Nordfjord</figcaption>
+</figure>
+	<figure class="thumbs" onClick="CI_tekster_setIneractiveTxt('eple'); CI_tekster_thumb_switchColors(this);">
+  <img src="06-tekster/thumbs/dame17.jpg" alt="Klikk for å starte Eple">
+	<figcaption class="figcap"><strong>"Eple"</strong><br>Hardanger og Nordfjord</figcaption>
+</figure>
+	</div>
+		
+<div id="damestemmeDikt" class="thumbContainer">	
+	<figure class="thumbs" onClick="CI_tekster_setIneractiveTxt('treetstodferdig'); CI_tekster_thumb_switchColors(this);">
+  <img src="06-tekster/thumbs/dame2.jpg" alt="Klikk for å starte Treet stod ferdig">
+	<figcaption class="figcap"><strong>"Treet stod ferdig"</strong><br>(bokmål)</figcaption>
+</figure>
+	<figure class="thumbs" onClick="CI_tekster_setIneractiveTxt('allemineklaer'); CI_tekster_thumb_switchColors(this);">
+  <img src="06-tekster/thumbs/dame2.jpg" alt="Klikk for å starte Alle mine klær">
+	<figcaption class="figcap"><strong>"Alle mine klær"</strong><br>(bokmål)</figcaption>
+</figure>
+	</div>
+		
+		
+<div id="mannsstemmeFortellinger" class="thumbContainer">	
+	<figure class="thumbs" onClick="CI_tekster_setIneractiveTxt('bjellepaakatten'); CI_tekster_thumb_switchColors(this);">
+  <img src="06-tekster/thumbs/mann1.jpg" alt="Klikk for å starte Bjelle på katten">
+	<figcaption class="figcap"><strong>"Bjelle på katten"</strong><br>Eventyr<br>(bokmål)</figcaption>
+</figure>
+	<figure class="thumbs" onClick="CI_tekster_setIneractiveTxt('hvorforbjoernenharkorthale'); CI_tekster_thumb_switchColors(this);">
+  <img src="06-tekster/thumbs/mann2.jpg" alt="Klikk for å starte Hvorfor bjørnen har kort hale">
+	<figcaption class="figcap"><strong>"Hvorfor bjørnen har kort hale"</strong><br>Eventyr<br>(bokmål)</figcaption>
+</figure>
+	</div>
+		
+<div id="mannsstemmeVitser" class="thumbContainer">	
+	<figure class="thumbs" onClick="CI_tekster_setIneractiveTxt('verdenseldsteyrke'); CI_tekster_thumb_switchColors(this);">
+  <img src="06-tekster/thumbs/mann4.jpg" alt="Klikk for å starte Verdens eldste yrke">
+	<figcaption class="figcap"><strong>"Verdens eldste yrke"</strong><br>(Øst-Norge)</figcaption>
+</figure>
+		<figure class="thumbs" onClick="CI_tekster_setIneractiveTxt('fotballspillere'); CI_tekster_thumb_switchColors(this);">
+  <img src="06-tekster/thumbs/mann2.jpg" alt="Klikk for å starte Fotballspillere">
+	<figcaption class="figcap"><strong>"Fotballspillere"</strong><br>(Trøndelag)</figcaption>
+</figure>
+		<figure class="thumbs" onClick="CI_tekster_setIneractiveTxt('storfisk'); CI_tekster_thumb_switchColors(this);">
+  <img src="06-tekster/thumbs/mann2.jpg" alt="Klikk for å starte Stor fisk">
+	<figcaption class="figcap"><strong>"Stor fisk"</strong><br>(Trøndelag)</figcaption>
+</figure>
+		<figure class="thumbs" onClick="CI_tekster_setIneractiveTxt('harenogskilpadda'); CI_tekster_thumb_switchColors(this);">
+  <img src="06-tekster/thumbs/mann2.jpg" alt="Klikk for å starte Haren og skilpadda">
+	<figcaption class="figcap"><strong>"Haren og skilpadda"</strong><br>(Trøndelag)</figcaption>
+</figure>
+		<figure class="thumbs" onClick="CI_tekster_setIneractiveTxt('roedioeynene'); CI_tekster_thumb_switchColors(this);">
+  <img src="06-tekster/thumbs/mann3.jpg" alt="Klikk for å starte Rød i øynene">
+	<figcaption class="figcap"><strong>"Rød i øynene"</strong><br>(Stavanger)</figcaption>
+</figure>
+		<figure class="thumbs" onClick="CI_tekster_setIneractiveTxt('edderkoppisuppa'); CI_tekster_thumb_switchColors(this);">
+  <img src="06-tekster/thumbs/mann3.jpg" alt="Klikk for å starte Edderkopp i suppa">
+	<figcaption class="figcap"><strong>"Edderkopp i suppa"</strong><br>(Stavanger)</figcaption>
+</figure>
+	</div>
+	
+<div id="mannsstemmeSaktekster" class="thumbContainer">	
+	<figure class="thumbs" onClick="CI_tekster_setIneractiveTxt('paasketur'); CI_tekster_thumb_switchColors(this);">
+  <img src="06-tekster/thumbs/mann1.jpg" alt="Klikk for å starte Påsketur">
+	<figcaption class="figcap"><strong>"Verdens eldste yrke"</strong><br>(Bokmål)</figcaption>
+</figure>
+ <figure class="thumbs" onClick="CI_tekster_setIneractiveTxt('hoerselshemmetidentitet'); CI_tekster_thumb_switchColors(this);">
+  <img src="06-tekster/thumbs/mann1.jpg" alt="Klikk for å starte Hørselshemmet identitet">
+	<figcaption class="figcap"><strong>"Hørselshemmet identitet"</strong><br>(Bokmål)</figcaption>
+ </figure>
+	<figure class="thumbs" onClick="CI_tekster_setIneractiveTxt('infomotsluttenavreisen'); CI_tekster_thumb_switchColors(this);">
+  <img src="06-tekster/thumbs/Fly.jpg" alt="Klikk for å starte Info mot slutten av reisen">
+	<figcaption class="figcap"><strong>"Info mot slutten av reisen"</strong><br>(Bokmål)</figcaption>
+</figure>
+	</div>
+	
+<div id="barnestemme" class="thumbContainer">	
+	<figure class="thumbs" onClick="CI_tekster_setIneractiveTxt('golvklokka'); CI_tekster_thumb_switchColors(this);">
+  <img src="06-tekster/thumbs/barn1.jpg" alt="Klikk for å starte Golvklokka">
+	<figcaption class="figcap"><strong>"Golvklokka"</strong><br>Vits<br>(Bokmål)</figcaption>
+</figure>
+ <figure class="thumbs" onClick="CI_tekster_setIneractiveTxt('teaterlagetiBUL'); CI_tekster_thumb_switchColors(this);">
+  <img src="06-tekster/thumbs/barn2.jpg" alt="Klikk for å starte Teaterlaget i BUL">
+	<figcaption class="figcap"><strong>"Teaterlaget i BUL"</strong><br>Dialog<br>(Trøndelag)</figcaption>
+	</figure>
+	 </div>
+	
+	
+</div>
+
+
+
+
+
+

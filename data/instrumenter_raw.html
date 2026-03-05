@@ -1,0 +1,91 @@
+<style>
+	#navInstrumentContainer{
+		position: absolute;
+		width: 500px;
+		background-color: var(--cicolor-one);
+		height: 120px;
+		margin-top: 5px;
+		margin-left: 470px;
+	}
+	
+	#alleInstrumenter{
+		margin-top: 70px;
+	}
+	
+	/*knappene i sanger menyen*/
+	.navInstrument{
+		width: 48%;
+		background-color: #eaeaea;
+		text-align: center;
+		margin-bottom: 2px;
+		cursor: pointer;
+		padding-bottom: 2px;
+	}
+	
+	.navInstrumentLeft{
+		float:left;
+	}
+	.navInstrumentRight{
+		float:right;
+	}
+
+	
+	/*check bokser for hver enkelt sang*/
+	.instrument_check{
+		float: right;
+		vertical-align: middle;
+	}
+	
+</style>
+
+<div class="oppgavefaner" >
+			
+			<button id="btnSanger" tabindex="0" class="faneInaktiv" onclick="runSangerBtn()">Sanger</button>
+			<button id="btnInstrumenter" tabindex="0" class="faneAktiv">Instrumenter</button><br>
+
+		</div>
+
+<div class="settingsRadioButtons" >
+	
+		<form id="radioModus">
+			<input style="margin-bottom: 10px;" id="lytte" type="radio" onClick ="CI_instrumenter_velgModus()" name="modus" value="lytte" checked><label class="radiolabel" for="lytte">Lytte</label><br>
+			<input id="ove" type="radio" onClick ="CI_instrumenter_velgModus()" name="modus" value="ove"><label class="radiolabel" for="ove">Øve</label><br>
+	   </form>
+	
+		<form id="radioType">
+			
+			<input id="checkFiolin" style="margin-bottom: 10px;" type="radio" onClick ="CI_velgInstrument('fiolin')" name="instrumentModus" value="fiolin" checked><label class="radiolabel" for="fiolin">Fiolin</label><br>
+			
+			<input id="checkGitar" style="margin-bottom: 10px;" type="radio" onClick ="CI_velgInstrument('gitar')" name="instrumentModus" value="gitar"><label class="radiolabel" for="gitar">Gitar</label><br>
+			
+			<input id="checkPiano" style="margin-bottom: 10px;" type="radio" onClick ="CI_velgInstrument('piano')" name="instrumentModus" value="piano"><label class="radiolabel" for="piano">Piano</label><br>
+			
+			<input id="checkTrompet" style="margin-bottom: 10px;" type="radio" onClick ="CI_velgInstrument('trompet')" name="instrumentModus" value="trompet"><label class="radiolabel" for="trompet">Trompet</label><br>
+
+	   </form>
+</div>
+
+<div id="navInstrumentContainer">
+	
+	<div id="IDjavielsker" class="navInstrument navInstrumentLeft" onClick="CI_instrumenter_velgSang('javielsker',1);">Ja, vi elsker dette landet<input class="instrument_check" type="checkbox" name="nameSang" value="0" ></div>
+	
+	<div id="IDjegersaaglad" class="navInstrument navInstrumentRight" onClick="CI_instrumenter_velgSang('jegersaaglad',2);">Jeg er så glad hver julekveld<input class="instrument_check" type="checkbox" name="nameSang" value="0" ></div>
+	
+	<div id="IDmikkelrev" class="navInstrument navInstrumentLeft" onClick="CI_instrumenter_velgSang('mikkelrev',3);">Mikkel Rev<input class="instrument_check" type="checkbox" name="nameSang" value="0" ></div>
+	
+	<div id="IDperspelmann" class="navInstrument navInstrumentRight" onClick="CI_instrumenter_velgSang('perspelmann',4);">Per Spelmann<input class="instrument_check" type="checkbox" name="nameSang" value="0" ></div>
+	
+	<div id="alleInstrumenter">
+		
+		<div id="IDfiolin" class="navInstrument navInstrumentLeft" onClick="CI_instrumenter_velgInstrument('fiolin',1);">Fiolin<input class="instrument_check" type="checkbox" name="nameInstrument" value="0" ></div>
+		
+		<div id="IDgitar" class="navInstrument navInstrumentRight" onClick="CI_instrumenter_velgInstrument('gitar',2);">Gitar<input class="instrument_check" type="checkbox" name="nameInstrument" value="0" ></div>
+		
+		<div id="IDpiano" class="navInstrument navInstrumentLeft" onClick="CI_instrumenter_velgInstrument('piano',3);">Piano<input class="instrument_check" type="checkbox" name="nameInstrument" value="0" ></div>
+		
+		<div id="IDtrompet" class="navInstrument navInstrumentRight" onClick="CI_instrumenter_velgInstrument('trompet',4);">Trompet<input class="instrument_check" type="checkbox" name="nameInstrument" value="0" ></div>
+	</div>
+	
+</div>
+
+
