@@ -1462,6 +1462,8 @@ input[type="range"]::-webkit-slider-thumb {
   <div class="dato-grid" id="dato-dag-grid"></div>
   <h3 class="dato-section-label">Måned</h3>
   <div class="dato-month-grid" id="dato-mnd-grid"></div>
+  <h3 class="dato-section-label">Ordenstall (måned)</h3>
+  <div class="dato-month-grid" id="dato-ord-grid"></div>
 </section>
 
 <!-- ═══════════════════════════════════════════
@@ -1841,7 +1843,7 @@ function setMode(moduleId, mode, btn) {
   }
   // Dato: clear both grids
   if (moduleId === 'dato') {
-    document.querySelectorAll('#dato-dag-grid .dato-cell, #dato-mnd-grid .dato-month-cell').forEach(c => {
+    document.querySelectorAll('#dato-dag-grid .dato-cell, #dato-mnd-grid .dato-month-cell, #dato-ord-grid .dato-month-cell').forEach(c => {
       c.classList.remove('selected','dimmed','correct-cell','wrong-cell','highlighted');
     });
   }
@@ -2016,11 +2018,12 @@ function tallGuess(num) {
    MODULE: DATO (Dates)
    ═══════════════════════════════════════════ */
 const MONTHS = ['januar','februar','mars','april','mai','juni','juli','august','september','oktober','november','desember'];
-const ORDINALS = ['1.','2.','3.','4.','5.','6.','7.','8.','9.','10.','11.','12.','13.','14.','15.','16.','17.','18.','19.','20.','21.','22.','23.','24.','25.','26.','27.','28.','29.','30.','31.'];
+const ORD_MONTHS = ['i første','i andre','i tredje','i fjerde','i femte','i sjette','i sjuende','i åttende','i niende','i tiende','i ellevte','i tolvte'];
 
 function initDato() {
   const dagGrid = document.getElementById('dato-dag-grid');
   const mndGrid = document.getElementById('dato-mnd-grid');
+  const ordGrid = document.getElementById('dato-ord-grid');
   if (dagGrid.children.length > 0) return;
   S.mode.dato = 'lytte';
 
@@ -2040,6 +2043,15 @@ function initDato() {
     cell.dataset.mnd = idx;
     cell.addEventListener('click', () => datoMndClick(idx));
     mndGrid.appendChild(cell);
+  });
+
+  ORD_MONTHS.forEach((label, idx) => {
+    const cell = document.createElement('div');
+    cell.className = 'dato-month-cell';
+    cell.textContent = label;
+    cell.dataset.ord = idx;
+    cell.addEventListener('click', () => datoOrdClick(idx));
+    ordGrid.appendChild(cell);
   });
 }
 
@@ -2062,6 +2074,15 @@ function datoMndClick(idx) {
     cells[idx].classList.add('selected');
   } else {
     datoGuess('mnd', idx);
+  }
+}
+
+function datoOrdClick(idx) {
+  if ((S.mode.dato || 'lytte') === 'lytte') {
+    playAudio(`audio/dato/${S.voice}/i${idx + 1}.mp3`, 'dato');
+    document.querySelectorAll('#dato-ord-grid .dato-month-cell.selected').forEach(c => c.classList.remove('selected'));
+    const cells = document.querySelectorAll('#dato-ord-grid .dato-month-cell');
+    cells[idx].classList.add('selected');
   }
 }
 
@@ -2090,7 +2111,7 @@ function datoNext() {
   const ex = exercises.dato;
   if (ex.answered >= ex.total) { showResult('dato'); resetExercise('dato'); return; }
 
-  document.querySelectorAll('#dato-dag-grid .dato-cell, #dato-mnd-grid .dato-month-cell').forEach(c =>
+  document.querySelectorAll('#dato-dag-grid .dato-cell, #dato-mnd-grid .dato-month-cell, #dato-ord-grid .dato-month-cell').forEach(c =>
     c.classList.remove('selected','correct-cell','wrong-cell','highlighted'));
 
   const combo = ex.items[ex.answered];
