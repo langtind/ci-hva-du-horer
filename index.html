@@ -39,6 +39,7 @@
     <button class="nav-link" data-page="ord" onclick="navigateTo('ord')">Ord</button>
     <button class="nav-link" data-page="ordpar" onclick="navigateTo('ordpar')">Ordpar</button>
     <button class="nav-link" data-page="miljolyder" onclick="navigateTo('miljolyder')">Miljølyder</button>
+    <button class="nav-link" data-page="tekster" onclick="navigateTo('tekster')">Tekster</button>
   </nav>
 
   <div class="header-actions">
@@ -128,6 +129,12 @@
       <div class="card-icon green"><span class="material-icons-round">hearing</span></div>
       <div class="card-title">Miljølyder</div>
       <div class="card-desc">Gjenkjenn hverdagslyder</div>
+    </div>
+
+    <div class="module-card" onclick="navigateTo('tekster')">
+      <div class="card-icon red"><span class="material-icons-round">menu_book</span></div>
+      <div class="card-title">Tekster</div>
+      <div class="card-desc">Video med synkronisert tekst</div>
     </div>
   </div>
 
@@ -458,6 +465,20 @@
   <div id="miljolyder-content"></div>
   <div id="miljolyder-quiz" class="miljo-quiz" style="display:none;"></div>
 </section>
+
+<!-- ═══════════════════════════════════════════
+     PAGE: TEKSTER
+     ═══════════════════════════════════════════ -->
+<section class="page" id="page-tekster">
+  <div class="page-header">
+    <button class="back-btn" id="tekster-back-btn" onclick="navigateTo('home')">
+      <span class="material-icons-round">arrow_back</span>
+    </button>
+    <h2 class="page-title" id="tekster-title">Tekster</h2>
+  </div>
+  <div id="tekster-browse"></div>
+  <div id="tekster-player" style="display:none;"></div>
+</section>
 </main>
 
 <!-- ═══ GLOBAL SPEAKER INDICATOR ═══ -->
@@ -480,6 +501,8 @@
 <script src="js/ordpar.js"></script>
 <script src="js/oppbygging.js"></script>
 <script src="js/miljolyder.js"></script>
+<script src="js/tekster-data.js"></script>
+<script src="js/tekster.js"></script>
 <script src="js/init.js"></script>
 </body>
 </html>

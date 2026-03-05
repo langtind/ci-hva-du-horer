@@ -57,6 +57,7 @@ function navigateTo(page) {
   if (page === 'ordpar') initOrdpar();
   if (page === 'oppbygging') initOppbygging();
   if (page === 'miljolyder') initMiljo();
+  if (page === 'tekster') initTekster();
 
   window.scrollTo(0, 0);
 }

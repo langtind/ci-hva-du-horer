@@ -1222,3 +1222,99 @@ input[type="range"]::-webkit-slider-thumb {
   color: var(--text);
   box-shadow: var(--shadow-sm);
 }
+
+/* ═══════════════════════════════════════════
+   TEKSTER MODULE
+   ═══════════════════════════════════════════ */
+.tekster-speaker-tabs {
+  display: flex;
+  background: var(--bg-warm);
+  border-radius: var(--radius-full);
+  padding: 3px;
+  gap: 2px;
+  margin-bottom: 16px;
+}
+.tekster-speaker-tabs .mode-option {
+  flex: 1;
+  text-align: center;
+  font-size: 13px;
+  padding: 8px 6px;
+}
+.tekster-group-label {
+  font-family: var(--font-display);
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--accent);
+  margin: 20px 0 8px;
+  padding-left: 2px;
+}
+.tekster-card-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 6px;
+}
+.tekster-card {
+  padding: 14px 16px;
+  border-radius: var(--radius-md);
+  background: var(--surface);
+  border: 1px solid var(--border);
+  cursor: pointer;
+  transition: all 0.15s var(--ease-out);
+}
+.tekster-card:hover { background: var(--surface-hover); border-color: var(--border-strong); }
+.tekster-card:active { transform: scale(0.98); }
+.tekster-card-title {
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--text);
+}
+.tekster-card-subtitle {
+  font-size: 12px;
+  color: var(--text-tertiary);
+  margin-top: 2px;
+}
+.tekster-video-wrap {
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  background: #000;
+  margin-bottom: 12px;
+}
+.tekster-video-wrap video {
+  width: 100%;
+  display: block;
+}
+.tekster-toggle-bar {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+.tekster-transcript {
+  max-height: 50vh;
+  overflow-y: auto;
+  border-radius: var(--radius-lg);
+  background: var(--surface);
+  border: 1px solid var(--border);
+  padding: 12px;
+}
+.tekster-sentence {
+  padding: 8px 10px;
+  border-radius: var(--radius-sm);
+  border-left: 3px solid transparent;
+  cursor: pointer;
+  font-size: 14px;
+  line-height: 1.5;
+  color: var(--text-secondary);
+  transition: all 0.2s var(--ease-out);
+  white-space: pre-line;
+  margin-bottom: 2px;
+}
+.tekster-sentence:hover { background: var(--surface-hover); }
+.tekster-sentence.active {
+  background: var(--accent-soft);
+  border-left-color: var(--accent);
+  color: var(--text);
+  font-weight: 500;
+}
+@media (min-width: 640px) {
+  .tekster-card-grid { grid-template-columns: repeat(2, 1fr); }
+}
