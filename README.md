@@ -49,4 +49,5 @@ python3 -m http.server 8080
 ## Kreditt
 
 - **Originalt innhold og lydfiler:** Statped & Logopedisk senter i Trondheim
-- **Redesign:** Arild Langtind
+- **Idé til modernisering:** [@solvind](https://github.com/solvind)
+- **Redesign:** [@langtind](https://github.com/langtind)
