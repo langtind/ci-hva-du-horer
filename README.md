@@ -1,6 +1,8 @@
-# CI hva du hører — Modernisert
+# Lyttetrening
 
 En moderne, mobilvenlig versjon av Statpeds lyttetreningsprogram **CI hva du hører**, laget for voksne med cochleaimplantat (CI).
+
+**Prøv den:** [langtind.github.io/lyttetrening](https://langtind.github.io/lyttetrening/)
 
 ## Om prosjektet
 
