@@ -320,10 +320,32 @@
     <button class="pill-toggle" data-voice="dame" onclick="setVoice('dame',this)">
       <span class="material-icons-round">record_voice_over</span>Dame
     </button>
+    <button class="pill-toggle" onclick="toggleNoise(this)">
+      <span class="material-icons-round">volume_up</span>Støy
+    </button>
+  </div>
+
+  <div class="noise-panel" id="noise-panel-setning">
+    <label>Bakgrunnsstøy <span id="noise-val-setning">30%</span></label>
+    <input type="range" min="0" max="100" value="30" oninput="setNoiseVolume(this.value,'setning')">
   </div>
 
   <div class="word-tabs" id="setning-tabs"></div>
 
+  <div class="setning-options-bar">
+    <div class="setning-audio-toggle" id="setning-audio-type">
+      <button class="pill-radio active" data-type="setning" onclick="setningSetAudioType('setning')">Setning</button>
+      <button class="pill-radio" data-type="ord" onclick="setningSetAudioType('ord')">Ord</button>
+    </div>
+    <div class="setning-level-checks">
+      <span class="setning-level-label">Nivå:</span>
+      <label class="setning-cb-label"><input type="checkbox" id="setning-level-1" checked onchange="setningToggleLevel(1,this.checked)"><span>1</span></label>
+      <label class="setning-cb-label"><input type="checkbox" id="setning-level-2" checked onchange="setningToggleLevel(2,this.checked)"><span>2</span></label>
+      <label class="setning-cb-label"><input type="checkbox" id="setning-level-3" checked onchange="setningToggleLevel(3,this.checked)"><span>3</span></label>
+      <label class="setning-cb-label"><input type="checkbox" id="setning-level-4" checked onchange="setningToggleLevel(4,this.checked)"><span>4</span></label>
+      <label class="setning-cb-label"><input type="checkbox" id="setning-level-5" checked onchange="setningToggleLevel(5,this.checked)"><span>5</span></label>
+    </div>
+  </div>
 
   <div id="exercise-controls-setning" class="exercise-controls" style="display:none;">
     <button class="ctrl-btn primary pulsing" id="start-btn-setning" onclick="setningStart()">
@@ -339,7 +361,7 @@
 
   <div class="progress-bar" id="progress-setning"></div>
   <div class="result-banner" id="result-setning"></div>
-  <div class="word-grid" id="setning-grid"></div>
+  <div class="setning-grid" id="setning-grid"></div>
 </section>
 
 <!-- ═══════════════════════════════════════════
